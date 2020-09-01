@@ -602,7 +602,7 @@ body.nav-opened .site-wrapper {
 
 .main-nav a {
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation */
@@ -617,6 +617,7 @@ body.nav-opened .nav-cover {
 
 .nav {
     position: fixed;
+    font-family: 'Roboto', sans-serif;
     top: 0;
     right: 0;
     bottom: 0;
@@ -654,7 +655,7 @@ body.nav-opened .nav {
     position: absolute;
     top: 45px;
     left: 30px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 100;
     text-transform: uppercase;
     color: #fff;
@@ -719,16 +720,15 @@ body.nav-opened .nav {
     font-size: 1.2rem;
     vertical-align: bottom;
     color: #B8B8B8;
-    content: counter(item, lower-roman);
-    counter-increment: item;
 }
+
 .nav li {
     margin: 0;
 }
 .nav li a {
     text-decoration: none;
     line-height: 1.4;
-    font-size: 1.4rem;
+    font-size: 2.1rem;
     display: block;
     padding: 0.6rem 4%;
     overflow: hidden;
@@ -855,7 +855,7 @@ body.nav-opened .nav {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    height: 38px;
+    height: 80px;
     padding: 1px 0 5px 0;
     width: auto;
 }
