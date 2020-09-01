@@ -48,8 +48,8 @@ lsi: false
 username: RulersOth
 repo: RulersOth.github.io
 branch: master
-relative_source: ../RulersOth.github.io/
-destination: ../RulersOth.github.io/
+relative_source: RulersOth.github.io
+destination: RulersOth.github.io
 production_url:  https://RulersOth.github.io/
 source_url:  https://github.com/RulersOth/RulersOth.github.io/
 
