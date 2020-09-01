@@ -46,10 +46,10 @@ plugins: [jekyll-paginate]
 safe: false
 lsi: false
 username: RulersOth
-repo: RulersOth
+repo: RulersOth.github.io
 branch: master
-relative_source: ../RulersOth/
-destination: ../RulersOth-pages/
+#relative_source: ../RulersOth/
+#destination: ../RulersOth-pages/
 production_url:  https://RulersOth.github.io
 source_url:  https://github.com/RulersOth/RulersOth.github.io
 
