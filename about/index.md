@@ -3,7 +3,7 @@ layout: page
 title: About
 navigation: true
 logo: 'assets/images/logo_B.png'
-class: 'page-template'
+class: 'post-template'
 current: about
 ---
 <img src="profile.png" width="300" float="right">
