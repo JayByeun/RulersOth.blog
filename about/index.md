@@ -2,12 +2,20 @@
 layout: page
 title: About
 navigation: true
-logo: 'assets/images/ghost.png'
+logo: 'assets/images/logo.png'
 current: about
 ---
 
-This is a demo blog for Ghost, it contains dummy content which allows you to click around and see what a Ghost blog running the default theme looks like.
+![profile](/images/profile.png){: width="25px" height="25px"}{: .center}
 
-We use this for testing and for reference!
+This is my Tech blog.<br>I post here my current projects and interests.
 
-If you'd like to set up your own blog, head on over to [https://ghost.org](https://ghost.org) and sign up.
+####<strong>This is who I am</strong>
+
+```
+● Software Engineer/ UX Designer
+● Ex-Project Lead
+● Interested in HCI and AI
+● Accidentally doing Mathematics for life
+● Collecting degrees for function
+```
