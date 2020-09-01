@@ -4,8 +4,8 @@ cover: 'assets/images/cover4.jpg'
 navigation: True
 title: I Have a Dream
 date: 1963-08-28 10:18:00
-tags: speeches
-subclass: 'post tag-speeches'
+tags: DevEnv
+subclass: 'post tag-DevEnv'
 logo: 'assets/images/ghost.png'
 author: martin
 categories: martin

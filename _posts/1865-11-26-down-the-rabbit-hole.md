@@ -4,8 +4,8 @@ cover: 'assets/images/cover1.jpg'
 navigation: True
 title: Down The Rabbit Hole
 date: 1865-11-26 10:18:00
-tags: fiction
-subclass: 'post tag-fiction'
+tags: MyLog
+subclass: 'post tag-MyLog'
 logo: 'assets/images/ghost.png'
 author: lewis
 categories: lewis
