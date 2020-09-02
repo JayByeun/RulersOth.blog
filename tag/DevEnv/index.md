@@ -1,4 +1,5 @@
 ---
+layout: tag
 name: DevEnv
 title: DevEnv
 class: 'page-template'
