@@ -17,7 +17,7 @@ short_url: 'RulersOth.github.io'
 baseurl: /
 
 # Permalinks
-permalink: /:title
+#permalink: /:title
 # permalink: /author/:username
 # permalink: /tag/:tag
 
@@ -32,7 +32,7 @@ collections:
 defaults:
   - scope:
       path: ''
-      type: tags
+      type: tag
     values:
       layout: tag
 # Additional settings available on the front-matter
