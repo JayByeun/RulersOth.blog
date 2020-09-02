@@ -27,7 +27,7 @@ plugins: [jekyll-paginate]
 collections:
   tags:
     output: true
-    permalink: /tag/:title/
+    permalink: /tag/:path/
 
 defaults:
   - scope:
