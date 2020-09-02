@@ -1,6 +1,6 @@
 ---
 layout: tag
-name: DevEnv
+tag: DevEnv
 title: DevEnv
 class: 'tag-template'
 cover: 'assets/images/cover001.jpeg'
