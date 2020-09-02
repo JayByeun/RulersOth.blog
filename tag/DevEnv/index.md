@@ -1,5 +1,4 @@
 ---
-layout: page
 name: DevEnv
 title: DevEnv
 class: 'page-template'

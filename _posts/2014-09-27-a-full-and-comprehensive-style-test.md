@@ -4,8 +4,8 @@ cover: 'assets/images/cover3.jpg'
 navigation: True
 title: A Full and Comprehensive Style Test
 date: 2014-09-27 10:18:00
-tags: Tech
-subclass: 'post tag-Tech'
+tags: DevEnv
+subclass: 'post tag-DevEnv'
 logo: 'assets/images/logo.png'
 author: JayB
 categories: JayB
