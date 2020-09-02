@@ -1,12 +1,9 @@
 ---
-layout: page
-title: About
+layout: about
 navigation: true
 logo: 'assets/images/logo_B.png'
-class: 'post-template'
-current: about
 ---
-<img src="profile.png" width="300" float="right">
+<img src="profile.png" width="200" float="right">
 
 This is my Tech blog.<br>I post here my current projects and interests.
 
@@ -17,5 +14,5 @@ This is my Tech blog.<br>I post here my current projects and interests.
 ● Ex-Project Lead
 ● Interested in HCI and AI
 ● Accidentally doing Mathematics for life
-● Collecting degrees for function
+● Collecting degrees for fun
 ```
