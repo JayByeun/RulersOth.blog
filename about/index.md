@@ -3,8 +3,6 @@ layout: about
 navigation: true
 logo: 'assets/images/logo_B.png'
 ---
-<img src="profile.png" width="200" float="right">
-
 This is my Tech blog.<br>I post here my current projects and interests.
 
 <strong>This is who I am</strong>

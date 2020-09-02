@@ -119,17 +119,13 @@
                     <span class="author-location icon-location">Stuttgart, Germany</span>
                     <span class="author-link icon-link"><a href="http://RulersOth.github.io/">Git</a></span>
                     <!-- <span class="author-stats"><i class="icon-stats"></i> [[plural ../pagination.total empty='No posts' singular='% post' plural='% posts']]</span> -->
+                    <span class="author-stats"><i class="icon-stats"></i>{% if paginator.total_posts == 0 %}No posts{% elsif paginator.total_posts == 1 %}1 post{% else %}{{ paginator.total_posts }} posts{% endif %}</span>
                 </div>
 
     </section>
 <!-- /author -->
 
 <!-- The main content area on the homepage -->
-<main id="content" class="content" role="main">
-
-    {% include loop.html %}
-
-</main>
 
         <!-- The tiny footer at the very bottom -->
         <footer class="site-footer clearfix">
