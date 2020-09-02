@@ -9,6 +9,7 @@ current: tag
 
 <!-- dynamically overriding backgrounds for tags as well as descriptions -->
 {% if page.url contains 'Tech' %}
+  {% assign new_cover='assets/images/cover001.jpeg' %}
    {% assign tag_description='Side Projects' %}
 {% elsif page.url contains 'DevEnv' %}
     {% assign new_cover='assets/images/cover7.jpg' %}
