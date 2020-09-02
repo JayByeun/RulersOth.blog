@@ -1,4 +1,5 @@
 ---
+layout: page
 name: Tech
 title: Tech
 class: 'page-template'
