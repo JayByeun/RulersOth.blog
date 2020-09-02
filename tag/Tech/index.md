@@ -1,4 +1,4 @@
 ---
 layout: tag
-navigation: True
+class: 'page-template'
 ---
