@@ -4,8 +4,8 @@ cover: 'assets/images/cover7.jpg'
 navigation: True
 title: The Businessman & the fisherman
 date: 2014-08-12 10:18:00
-tags: Tech-Posts MyLog
-subclass: 'post tag-test tag-content'
+tags: Tech-Posts
+subclass: 'post tag-Tech-Posts tag-Tech-Posts'
 author: JayB
 categories: JayB
 ---
