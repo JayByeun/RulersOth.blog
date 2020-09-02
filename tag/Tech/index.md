@@ -1,8 +1,8 @@
 ---
-name: DevEnv
-title: DevEnv
+tag: Tech
+title: Tech
 class: 'page-template'
 cover: 'assets/images/cover001.jpeg'
-navigation: True
+navigation: true
 logo: 'assets/images/logo.png'
 ---
