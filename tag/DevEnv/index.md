@@ -2,7 +2,7 @@
 layout: tag
 name: DevEnv
 title: DevEnv
-class: 'page-template'
+class: 'tag-template'
 cover: 'assets/images/cover001.jpeg'
 navigation: True
 logo: 'assets/images/logo.png'
