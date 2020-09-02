@@ -113,9 +113,9 @@ class: 'page-template'
                 on
                 {% for tag in post.tags %}
                     {% if forloop.index == post.tags.size %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>
+                       <a href='{{ site.baseurl }}tag/Tech'>Tech</a>
                     {% else %}
-                       <a href='{{ site.baseurl }}tag/{{ tag }}'>{{ tag | capitalize }}</a>,
+                       <a href='{{ site.baseurl }}tag/content'>content</a>,
                     {% endif %}
                 {% endfor %}
             {% endif %}
