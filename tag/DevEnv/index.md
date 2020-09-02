@@ -1,6 +1,7 @@
 ---
-name: Tech
-title: Tech
+layout: page
+name: DevEnv
+title: DevEnv
 class: 'page-template'
 cover: 'assets/images/cover001.jpeg'
 navigation: True

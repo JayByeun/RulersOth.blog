@@ -1,6 +1,6 @@
 ---
-name: Tech
-title: Tech
+name: MyLog
+title: MyLog
 class: 'page-template'
 cover: 'assets/images/cover001.jpeg'
 navigation: True

@@ -25,7 +25,7 @@ permalink: /:title
 plugins: [jekyll-paginate]
 
 collections:
-  tags: 
+  tags:
     output: true
     permalink: /tag/:path/
 

@@ -1,17 +1,24 @@
----
-layout: post
-cover: 'assets/images/cover3.jpg'
-navigation: True
-title: A Full and Comprehensive Style Test
-date: 2014-09-27 10:18:00
-tags: test content
-subclass: 'post tag-test tag-content'
-logo: 'assets/images/ghost.png'
-author: casper
-categories: casper
----
+<?xml version="1.0" encoding="UTF-8" ?>
 
-<p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>RulersOth.github.io</title>
+   
+   <link>http://localhost:4000</link>
+   <description>A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>A Full and Comprehensive Style Test</title>
+	  <link>//a-full-and-comprehensive-style-test</link>
+	  <author></author>
+	  <pubDate>2014-09-27T12:18:00+02:00</pubDate>
+	  <guid>//a-full-and-comprehensive-style-test</guid>
+	  <description><![CDATA[
+	     <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
 
 
 <p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
@@ -131,42 +138,38 @@ categories: casper
 
 <p>Code blocks can also be inserted with the highlight tag as below:</p>
 <pre>
-    {% raw %}
+    
     {% highlight language-x %}
     # some code
     {% endhighlight %}
-    {% endraw %}
+    
 </pre>
 
 <p>More information about code highlighting in jekyll can be found  <a href="https://jekyllrb.com/docs/templates/#code-snippet-highlighting">in Jekyll documentation</a>.</p>
 
 <p>These area a couple of examples showing the resulting highlighted code:</p>
 
-{% highlight css %}
-/* css code sample */
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-{% endhighlight %}
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* css code sample */</span>
+<span class="nf">#container</span> <span class="p">{</span>
+    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></figure>
 
 
-{% highlight javascript %}
-// javascript code sample
-$.ajax({
-  type: 'POST',
-  url: 'backend.php',
-  data: "q="+myform.serialize(),
-  success: function(data){
-    // on success use return data here
-  },
-  error: function(xhr, type, exception) {
-    // if ajax fails display error alert
-    alert("ajax error response type "+type);
-  }
-});
-{% endhighlight %}
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// javascript code sample</span>
+<span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
+  <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
+  <span class="na">url</span><span class="p">:</span> <span class="s1">'backend.php'</span><span class="p">,</span>
+  <span class="na">data</span><span class="p">:</span> <span class="s2">"q="</span><span class="o">+</span><span class="nx">myform</span><span class="p">.</span><span class="nx">serialize</span><span class="p">(),</span>
+  <span class="na">success</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
+    <span class="c1">// on success use return data here</span>
+  <span class="p">},</span>
+  <span class="na">error</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">xhr</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">exception</span><span class="p">)</span> <span class="p">{</span>
+    <span class="c1">// if ajax fails display error alert</span>
+    <span class="nx">alert</span><span class="p">(</span><span class="s2">"ajax error response type "</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">});</span></code></pre></figure>
 
 <p>Now you can also use <a href="https://highlightjs.org/">highlight.js</a>.
 For more on how to use it and on the available styles check their
@@ -425,3 +428,10 @@ c.draw = function() {
 <p></div><script async src="//codepen.io/assets/embed/ei.js"></script></p>
 
 <p>Isn't it beautiful?</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
