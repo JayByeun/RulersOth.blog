@@ -1,3 +1,6 @@
+---
+class: 'tag-template'
+---
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,10 +50,6 @@
         <li class="nav-DevEnv " role="presentation"><a href="/tag/DevEnv">DevEnv</a></li>
         <li class="nav-MyLog " role="presentation"><a href="/tag/MyLog">MyLog</a></li>
         <li class="nav-author " role="presentation"><a href="/author/JayB">Jay B</a></li>
-        <!--<li class="nav-author " role="presentation"><a href="/author/edgar">Edgar</a></li>
-        <li class="nav-author " role="presentation"><a href="/author/abraham">Abraham</a></li>
-        <li class="nav-author " role="presentation"><a href="/author/martin">Martin</a></li>
-        <li class="nav-author " role="presentation"><a href="/author/lewis">Lewis</a></li>-->
     </ul>
     <a class="subscribe-button icon-feed" href="/feed.xml">Subscribe</a>
 </div>
@@ -89,10 +88,15 @@
 <!-- The main content area on the homepage -->
 
 <main id="content" class="content" role="main">
+    {% include loop.html %}
+    on
+
+
+           <a href='/tag/Tech'>Tech</a>,
 
     <!-- The tag below includes the post loop - partials/loop.hbs -->
 
-    {% include loop.html %}
+
 
 </main>
 
