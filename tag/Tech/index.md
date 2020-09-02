@@ -1,3 +1,3 @@
 ---
-layout: Tech
+layout: tag
 ---
