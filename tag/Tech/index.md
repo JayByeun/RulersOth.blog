@@ -1,5 +1,5 @@
 ---
 layout: tag
-name: Tech
+tag: Tech
 title: Tech
 ---
