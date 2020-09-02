@@ -5,7 +5,7 @@ navigation: True
 title: A Full and Comprehensive Style Test
 date: 2014-09-27 10:18:00
 tags: DevEnv
-subclass: 'post tag-DevEnv'
+subclass: 'post tag-DevEnv tag-content'
 logo: 'assets/images/logo.png'
 author: JayB
 categories: JayB
