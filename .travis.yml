@@ -13,6 +13,6 @@ deploy:
    skip_cleanup: true
    github_token: $GITHUB_TOKEN
    email: jayay.byeun@gmail.com
-   name: RulersOth
+   name: "RulersOth"
    on:
       branch: master
