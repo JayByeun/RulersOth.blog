@@ -5,7 +5,7 @@ navigation: True
 title: The Businessman & the fisherman
 date: 2014-08-12 10:18:00
 tags: Tech
-subclass: 'post tag-test tag-content'
+subclass: 'post tag-Tech tag-content'
 author: JayB
 categories: JayB
 ---

@@ -12,6 +12,24 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>Github_creating brance</title>
+	  <link>//jayb/2020/09/03/test-MD.html</link>
+	  <author></author>
+	  <pubDate>2020-09-03T12:18:00+02:00</pubDate>
+	  <guid>//jayb/2020/09/03/test-MD.html</guid>
+	  <description><![CDATA[
+	     <p>git init
+git remote add origin https://github.com/~.git
+git pull origin [branch name]
+git checkout -b [branch name]
+git add .
+git commit -m “[message]”
+git push origin [branch name]</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>A Full and Comprehensive Style Test</title>
 	  <link>//jayb/2014/09/27/a-full-and-comprehensive-style-test.html</link>
 	  <author></author>

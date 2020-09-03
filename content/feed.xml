@@ -8,9 +8,15 @@
     
       
       <item>
-        <title>test MD file</title>
+        <title>Github_creating brance</title>
         
-          <description>&lt;p&gt;gkgkgkgk&lt;/p&gt;
+          <description>&lt;p&gt;git init
+git remote add origin https://github.com/~.git
+git pull origin [branch name]
+git checkout -b [branch name]
+git add .
+git commit -m “[message]”
+git push origin [branch name]&lt;/p&gt;
 </description>
         
         <pubDate>Thu, 03 Sep 2020 12:18:00 +0200</pubDate>
