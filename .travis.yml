@@ -9,7 +9,7 @@ script:
   - hugo
 deploy:
    local_dir: public    # hugo build output path
-   repo: RulersOth.github.io  # target repo
+   repo: RulersOth/RulersOth.github.io  # target repo
    target_branch: master
    provider: pages
    skip_cleanup: true
@@ -17,4 +17,4 @@ deploy:
    email: jayay.byeun@gmail.com
    name: "RulersOth"
    on:
-      branch: master
+      branch: gh-pages
