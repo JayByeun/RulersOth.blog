@@ -13,10 +13,10 @@
    
 	<item>
 	  <title>Github_creating brance</title>
-	  <link>//2020/09/03/test-MD.html</link>
+	  <link>//jayb/2020/09/03/test-MD.html</link>
 	  <author></author>
 	  <pubDate>2020-09-03T12:18:00+02:00</pubDate>
-	  <guid>//2020/09/03/test-MD.html</guid>
+	  <guid>//jayb/2020/09/03/test-MD.html</guid>
 	  <description><![CDATA[
 	     <p>git init
 git remote add origin https://github.com/~.git
