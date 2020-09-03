@@ -6,6 +6,7 @@ title: 깃헙블로그
 date: 2020-09-03 10:18:00
 tags: Personal
 subclass: 'post tag-Personal'
+logo: 'assets/images/logo.png'
 author: JayB
 categories: JayB
 ---
