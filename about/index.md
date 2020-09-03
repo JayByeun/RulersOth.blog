@@ -1,6 +1,5 @@
 ---
 layout: about
-navigation: true
 logo: 'assets/images/logo_B.png'
 ---
 This is my Tech blog.<br>I post here my current projects and interests.
