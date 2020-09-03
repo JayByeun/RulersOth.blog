@@ -10,11 +10,11 @@ script:
 deploy:
    local_dir: public    # hugo build output path
    repo: RulersOth/RulersOth.github.io  # target repo
-   target_branch: gh-pages
+   target_branch: master
    provider: pages
    skip_cleanup: true
    github_token: $GITHUB_TOKEN
    email: jayay.byeun@gmail.com
    name: "RulersOth"
    on:
-      branch: gh-pages
+      branch: master
