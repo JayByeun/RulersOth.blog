@@ -24,17 +24,6 @@ baseurl: /
 # gems and other configs
 plugins: [jekyll-paginate]
 
-collections:
-  tags:
-    output: true
-    permalink: /tag/:path/
-
-defaults:
-  - scope:
-      path: ''
-      type: tag
-    values:
-      layout: tag
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
 # Author's page cover in _layouts/author.html
