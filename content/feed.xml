@@ -8,6 +8,20 @@
     
       
       <item>
+        <title>test MD file</title>
+        
+          <description>&lt;p&gt;gkgkgkgk&lt;/p&gt;
+</description>
+        
+        <pubDate>Thu, 03 Sep 2020 12:18:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/jayb/2020/09/03/test-MD.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jayb/2020/09/03/test-MD.html</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>A Full and Comprehensive Style Test</title>
         
           <description>&lt;p&gt;This is just an &lt;em&gt;ipsis verbis&lt;/em&gt; copy of the first example running on the &lt;a href=&quot;http://demo.ghost.io&quot;&gt;Ghost Demo&lt;/a&gt;. This shows how you can use html styling to achieve your hopes.&lt;/p&gt;
