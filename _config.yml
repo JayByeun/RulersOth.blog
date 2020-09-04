@@ -11,7 +11,7 @@ name: 'RulersOth'
 description: "What would you do,<br>if you have the DMC DeLorean?"
 
 short_url: 'RulersOth.github.io'
-#google_analytics: UA-69281367-1
+google_analytics: UA-177308191-1
 #disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
@@ -23,12 +23,6 @@ baseurl: /
 
 # gems and other configs
 plugins: [jekyll-paginate]
-
-analytics:
-  provider: "google"
-  google:
-    tracking_id: "UA-177308191-1"
-    anonymize_ip: false # default
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
