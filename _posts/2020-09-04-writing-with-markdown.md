@@ -7,7 +7,7 @@ cover: 'assets/images/cover7.jpg'
 logo: 'assets/images/logo.png'
 tags: DevEnv
 title: Writing with markdown
-subclass: 'post tag-DevEnv tag-Personal'
+subclass: 'post tag-DevEnv'
 ---
 
 > 마크다운은 <strong>html보다</strong> 쉬운 온라인 문서 작성방법이다. 마크다운으로 작성된 문서는 html로 변환이 쉬워 블로그나 간편한 웹 문서를 만들기에 적합하다. 하지만 마크다운 문서는 작성이 쉬운 반면, 웹 상에서 올바른 형식으로 인식하지 못하는 경우가 많기 때문에 자동으로 html 문서 형식으로 변환해 주는 과정이 필요하다. 이 대표적인 툴이 깃헙 블로그를 만들때 쓰이는 <strong>jekyll 이다.</strong><br> - 내가 공부한 건 그렇다.
@@ -34,7 +34,7 @@ subclass: 'post tag-DevEnv tag-Personal'
 heading
 -
 heading
-=
+=====
 
 #####   1.1 강조
 ```
@@ -43,9 +43,9 @@ heading
 취소선은 ~~Scratch this.~~
 
 ```
-강조효과는 *asterisks* or _underscores_ 사용한다.
-강한 강조 효과는 두개씩 양쪽에 사용 **asterisks** or __underscores__.
-취소선은 ~~Scratch this.~~
+강조효과는 *asterisks* or _underscores_ 사용한다. <br>
+강한 강조 효과는 두개씩 양쪽에 사용 **asterisks** or __underscores__. <br>
+취소선은 ~~Scratch this.~~ <br>
 
 ***
 #### 2. 줄바꿈
