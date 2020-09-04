@@ -1,3 +1,3 @@
 ---
-layout: author-profile
+layout: author
 ---
