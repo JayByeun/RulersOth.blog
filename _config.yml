@@ -17,7 +17,7 @@ google_analytics: UA-177308191-1
 baseurl: /
 
 # Permalinks
-#permalink: /:title
+permalink: /:title
 #permalink: /author/:username
 #permalink: /tag/:tag
 
