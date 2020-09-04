@@ -13,3 +13,14 @@ This is my Tech blog.<br>I post here my current projects and interests.
 ● Accidentally doing Mathematics for life
 ● Collecting degrees for fun
 ```
+<strong>Skills</strong>
+```
+● Java
+● front-end (intermediate)
+```
+<strong>Language</strong>
+```
+● English
+● German
+● Korean
+```

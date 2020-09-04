@@ -10,4 +10,13 @@ title: Personal Log
 subclass: 'post tag-Personal'
 ---
 
-this is my personal log
+The things that I should finish until the end of this year.
+
+***
+
+- [ ] revision of GBI
+- [ ] studying Java
+- [ ] studying html and CSS
+- [ ] revision of Hm and La
+- [ ] installing memorial bench at Konstanz
+- [ ] developing App for Spazieren
