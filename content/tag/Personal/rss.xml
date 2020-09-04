@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>RulersOth.github.io</title>
+   
+   <link>http://localhost:4000</link>
+   <description>What would you do,<br>if you have the DMC DeLorean?</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>깃헙블로그</title>
+	  <link>//content/jayb/2020/09/03/github-blog.html</link>
+	  <author></author>
+	  <pubDate>2020-09-03T12:18:00+02:00</pubDate>
+	  <guid>//content/jayb/2020/09/03/github-blog.html</guid>
+	  <description><![CDATA[
+	     <p>dfdfdf</p>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
