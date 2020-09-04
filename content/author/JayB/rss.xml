@@ -169,6 +169,18 @@ Pipes(|)는 칼럼을 구분한다.  마지막 파이프는 생략 가능하다.
 	</item>
 
 	<item>
+	  <title>Personal Log</title>
+	  <link>//jayb/2020/09/04/personal-log.html</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>//jayb/2020/09/04/personal-log.html</guid>
+	  <description><![CDATA[
+	     <p>this is my personal log</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Github_creating branch</title>
 	  <link>//jayb/2020/09/03/creating-branch.html</link>
 	  <author></author>
