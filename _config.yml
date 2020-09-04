@@ -10,16 +10,17 @@ language: 'en-uk'
 name: 'RulersOth'
 description: "What would you do,<br>if you have the DMC DeLorean?"
 
-short_url: 'RulersOth.github.io'
+short_url: 'RulersOth.github.io/RulersOth.blog'
 google_analytics: UA-177308191-1
 #disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: /
+baseurl: /RulersOth.blog/
 
 # Permalinks
-permalink: /:title
+#permalink: /:title
 #permalink: /author/:username
 #permalink: /tag/:tag
+permalink: /:categories/:title
 
 # gems and other configs
 plugins: [jekyll-paginate]
@@ -46,12 +47,12 @@ plugins: [jekyll-paginate]
 safe: false
 lsi: false
 username: RulersOth
-repo: RulersOth.github.io
+repo: RulersOth.blog
 branch: master
-relative_source: RulersOth.github.io
+relative_source: ../RulersOth.blog/
 destination: docs
-production_url:  https://RulersOth.github.io
-source_url:  https://github.com/RulersOth/RulersOth.github.io
+production_url:  https://RulersOth.github.io/RulersOth.blog/
+source_url:  https://github.com/RulersOth/RulersOth.blog/
 
 exclude:
   - README.md

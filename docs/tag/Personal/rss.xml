@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+   
+      <title>RulersOth.github.io/RulersOth.blog</title>
+   
+   <link>http://localhost:4000</link>
+   <description>What would you do,<br>if you have the DMC DeLorean?</description>
+   <language>en-uk</language>
+   <managingEditor> </managingEditor>
+   <atom:link href="rss" rel="self" type="application/rss+xml" />
+   
+	<item>
+	  <title>Personal Log</title>
+	  <link>/RulersOth.blog//content/jayb/personal-log</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//content/jayb/personal-log</guid>
+	  <description><![CDATA[
+	     <p>The things that I should finish until the end of this year.</p>
+
+<hr />
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />revision of GBI</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />studying Java</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />studying html and CSS</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />revision of Hm and La</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />installing memorial bench at Konstanz</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />developing App for Spazieren</li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+
+</channel>
+</rss>
