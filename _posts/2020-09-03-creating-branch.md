@@ -7,6 +7,7 @@ date: 2020-09-03 10:18:00
 tags: DevEnv
 subclass: 'post tag-DevEnv'
 author: JayB
+categories: JayB
 logo: 'assets/images/logo.png'
 ---
 
