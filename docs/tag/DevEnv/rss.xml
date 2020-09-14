@@ -24,7 +24,7 @@
 
 <hr />
 
-<p>####1. 기본 구성 tags</p>
+<h4 id="1-기본-구성-tags">1. 기본 구성 tags</h4>
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">" "</span> <span class="na">dir=</span><span class="s">"ltr"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;head&gt;</span>
@@ -46,7 +46,7 @@
 
 <hr />
 
-<p>####2. 분류 tags</p>
+<h4 id="2-분류-tags">2. 분류 tags</h4>
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
 <span class="nt">&lt;/div&gt;</span>
 
@@ -59,35 +59,37 @@
 <ul>
   <li><strong>div</strong> : 블록 형식으로 분할 (해당 블록 전체에 동일한 스타일 적용/ 자바 스크립트 블록적용)</li>
   <li><strong>span</strong> : 인라인 형식으로 분할 (텍스트 일부에 스타일 적용/ 자바 스크립트 일부 텍스트 적용)</li>
-  <li><strong>pre</strong> : 그대로 출력
-***
-####3. 서식 tags
-```html</li>
+  <li><strong>pre</strong> : 그대로 출력</li>
 </ul>
-<h1>html을 배워보자</h1>
-<p>I disapprove of what you say, but I will <strong>defend to the death</strong> your right to say it.
-(<a href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fethw.org%2FDonald_E._Knuth&amp;psig=AOvVaw24RzNXarq08C7HvAA_HoVw&amp;ust=1599739462075000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCIiv6ISE3OsCFQAAAAAdAAAAABAD" target="_blank" title="철학자, 작가">François-Marie Arouet (Voltaire)</a>)</p>
 
-<ul> unodered list
+<hr />
+
+<h4 id="3-서식-tags">3. 서식 tags</h4>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>html을 배워보자<span class="nt">&lt;/h1&gt;</span>
+I disapprove of what you say, but I will <span class="nt">&lt;strong&gt;</span>defend to the death<span class="nt">&lt;/strong&gt;</span> your right to say it.
+(<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fethw.org%2FDonald_E._Knuth&amp;psig=AOvVaw24RzNXarq08C7HvAA_HoVw&amp;ust=1599739462075000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCIiv6ISE3OsCFQAAAAAdAAAAABAD"</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">title=</span><span class="s">"철학자, 작가"</span><span class="nt">&gt;</span>François-Marie Arouet (Voltaire)<span class="nt">&lt;/a&gt;</span>)
+
+<span class="nt">&lt;ul&gt;</span> unodered list
 속성의 순서는 상관 없음
-마우스오버 = 타이틀<br />
-anchor에서 온 a<br />
-</ul>
+마우스오버 = 타이틀<span class="nt">&lt;br&gt;</span>
+anchor에서 온 a<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
 
-<ul> ul=list
-<li>문법1</li>
-<li>문법2</li>
-<li>문법3</li>
-<li>문법4</li>
-</ul>
+<span class="nt">&lt;ul&gt;</span> ul=list
+<span class="nt">&lt;li&gt;</span>문법1<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법2<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법3<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법4<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
 
-<ol> odered list
-	<li>hello</li>
-	<li>hallo</li>
-	<li>hi</li>
+<span class="nt">&lt;ol&gt;</span> odered list
+	<span class="nt">&lt;li&gt;</span>hello<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>hallo<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>hi<span class="nt">&lt;/li&gt;</span>
 
-</ol>
-<p>```</p>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
 <ul>
   <li><strong>h1~h6</strong> : 제목 크기별</li>
   <li><strong>ul</strong> : unodered list</li>
@@ -103,9 +105,10 @@ anchor에서 온 a<br />
   <li><strong>sup</strong> : 제곱근 등 표시</li>
   <li><strong>sub</strong> : 밑 등 표시</li>
   <li><strong>mark</strong> : 마크(하이라이트)</li>
-  <li><strong>a</strong> : 링크 삽입
-***</li>
+  <li><strong>a</strong> : 링크 삽입</li>
 </ul>
+
+<hr />
 
 <h4 id="4-meta-tags">4. meta tags</h4>
 <ul>
@@ -118,7 +121,7 @@ anchor에서 온 a<br />
 
 <hr />
 
-<p>####5. 이미지 삽입 tags</p>
+<h4 id="5-이미지-삽입-tags">5. 이미지 삽입 tags</h4>
 <ul>
   <li><strong>img</strong> : 이미지</li>
   <li><strong>src</strong> : URL</li>
