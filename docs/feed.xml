@@ -8,6 +8,23 @@
     
       
       <item>
+        <title>마크업 언어(html) 태그 정리</title>
+        
+          <description>&lt;blockquote&gt;
+  &lt;p&gt;마크업 언어 중 하나인 html의 태그 및 속성을 정리 해본다. html은 웹페이지의 뼈대를 만드는 언어라고 할 수 있다. 프로그래밍 언어라고 분류하기에는 조금 가벼운 감이 있지만 프론트 엔드를 구성함에 있어 아주 중요한 언어이다. 웹페이지는 대부분 html, CSS, Javascript를 사용해 구성되고 있으며 여기서 html과 CSS는 움직임이 없는 화면을 만드는 데 쓰인다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        
+        <pubDate>Mon, 14 Sep 2020 00:00:00 +0200</pubDate>
+        <link>
+        http://localhost:4000/jayb/html-tags</link>
+        <guid isPermaLink="true">http://localhost:4000/jayb/html-tags</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Writing with markdown</title>
         
           <description>&lt;blockquote&gt;

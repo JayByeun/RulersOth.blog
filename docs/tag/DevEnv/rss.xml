@@ -12,6 +12,123 @@
    <atom:link href="rss" rel="self" type="application/rss+xml" />
    
 	<item>
+	  <title>마크업 언어(html) 태그 정리</title>
+	  <link>/RulersOth.blog//content/jayb/html-tags</link>
+	  <author></author>
+	  <pubDate>2020-09-14T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//content/jayb/html-tags</guid>
+	  <description><![CDATA[
+	     <blockquote>
+  <p>마크업 언어 중 하나인 html의 태그 및 속성을 정리 해본다. html은 웹페이지의 뼈대를 만드는 언어라고 할 수 있다. 프로그래밍 언어라고 분류하기에는 조금 가벼운 감이 있지만 프론트 엔드를 구성함에 있어 아주 중요한 언어이다. 웹페이지는 대부분 html, CSS, Javascript를 사용해 구성되고 있으며 여기서 html과 CSS는 움직임이 없는 화면을 만드는 데 쓰인다.</p>
+</blockquote>
+
+<hr />
+
+<p>####1. 기본 구성 tags</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">" "</span> <span class="na">dir=</span><span class="s">"ltr"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>!DOCTYPE html</strong> : html 문서 유형 (html 5 이후로 거의 현상태로 통일되었다.)</li>
+  <li><strong>html</strong> : 웹 페이지 시작과 끝</li>
+  <li><strong>body</strong> : head를 제외한 화면에 표현되는 부분</li>
+  <li><strong>head</strong> : 상단 영역 혹은 제목 영역으로 화면에 표현되는 부분</li>
+  <li><strong>title</strong> : 웹페이지 제목 표시줄에 표현되는 부분</li>
+</ul>
+
+<hr />
+
+<p>####2. 분류 tags</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;span&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+
+<span class="nt">&lt;pre&gt;</span>
+<span class="nt">&lt;/pre&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>div</strong> : 블록 형식으로 분할 (해당 블록 전체에 동일한 스타일 적용/ 자바 스크립트 블록적용)</li>
+  <li><strong>span</strong> : 인라인 형식으로 분할 (텍스트 일부에 스타일 적용/ 자바 스크립트 일부 텍스트 적용)</li>
+  <li><strong>pre</strong> : 그대로 출력
+***
+####3. 서식 tags
+```html</li>
+</ul>
+<h1>html을 배워보자</h1>
+<p>I disapprove of what you say, but I will <strong>defend to the death</strong> your right to say it.
+(<a href="https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fethw.org%2FDonald_E._Knuth&amp;psig=AOvVaw24RzNXarq08C7HvAA_HoVw&amp;ust=1599739462075000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCIiv6ISE3OsCFQAAAAAdAAAAABAD" target="_blank" title="철학자, 작가">François-Marie Arouet (Voltaire)</a>)</p>
+
+<ul> unodered list
+속성의 순서는 상관 없음
+마우스오버 = 타이틀<br />
+anchor에서 온 a<br />
+</ul>
+
+<ul> ul=list
+<li>문법1</li>
+<li>문법2</li>
+<li>문법3</li>
+<li>문법4</li>
+</ul>
+
+<ol> odered list
+	<li>hello</li>
+	<li>hallo</li>
+	<li>hi</li>
+
+</ol>
+<p>```</p>
+<ul>
+  <li><strong>h1~h6</strong> : 제목 크기별</li>
+  <li><strong>ul</strong> : unodered list</li>
+  <li><strong>ol</strong> : ordered list</li>
+  <li><strong>li</strong> : list</li>
+  <li><strong>br</strong> : 줄바꿈</li>
+  <li><strong>hr</strong> : 수평줄</li>
+  <li><strong>strong , em</strong> : 강조</li>
+  <li><strong>b</strong> : 진하게</li>
+  <li><strong>small</strong> : 한 단계 작게</li>
+  <li><strong>del</strong> : 취소선</li>
+  <li><strong>ins</strong> : 밑줄</li>
+  <li><strong>sup</strong> : 제곱근 등 표시</li>
+  <li><strong>sub</strong> : 밑 등 표시</li>
+  <li><strong>mark</strong> : 마크(하이라이트)</li>
+  <li><strong>a</strong> : 링크 삽입
+***</li>
+</ul>
+
+<h4 id="4-meta-tags">4. meta tags</h4>
+<ul>
+  <li><strong>meta</strong> : 문자인코딩 방식 등</li>
+  <li><strong>base</strong> : URL/웹 페이지 출력될 윈도우 설정</li>
+  <li><strong>style</strong> : CSS 스타일 시트</li>
+  <li><strong>script</strong> : 자바스크립트 코드</li>
+  <li><strong>link</strong> : CSS 파일 불러오기 (head에서만 사용)</li>
+</ul>
+
+<hr />
+
+<p>####5. 이미지 삽입 tags</p>
+<ul>
+  <li><strong>img</strong> : 이미지</li>
+  <li><strong>src</strong> : URL</li>
+  <li><strong>alt</strong> : 불러올 이미지가 없을 경우 출력될 문자열</li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+	<item>
 	  <title>Writing with markdown</title>
 	  <link>/RulersOth.blog//content/jayb/writing-with-markdown</link>
 	  <author></author>
