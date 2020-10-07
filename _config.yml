@@ -45,7 +45,6 @@ plugins: [jekyll-paginate]
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
 safe: false
-lsi: false
 username: RulersOth
 repo: RulersOth.blog
 branch: master
