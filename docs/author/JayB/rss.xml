@@ -2,476 +2,395 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-
-      <title>RulersOth.github.io</title>
-
+   
+      <title>RulersOth.github.io/RulersOth.blog</title>
+   
    <link>http://localhost:4000</link>
-   <description>A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</description>
+   <description>What would you do,<br>if you have the DMC DeLorean?</description>
    <language>en-uk</language>
    <managingEditor> </managingEditor>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
-
+   
 	<item>
-	  <title>A Full and Comprehensive Style Test</title>
-	  <link>//a-full-and-comprehensive-style-test</link>
+	  <title>Civilising Information</title>
+	  <link>/RulersOth.blog//jayb/new-rules</link>
 	  <author></author>
-	  <pubDate>2014-09-27T12:18:00+02:00</pubDate>
-	  <guid>//a-full-and-comprehensive-style-test</guid>
+	  <pubDate>2020-10-07T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/new-rules</guid>
 	  <description><![CDATA[
-	     <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
+	     <p>20대 중반부터 숙제처럼 따라다니던 영화를 최근에서야 보게되었다.</p>
 
+<p><img src="/assets/images/childrenOfMen.jpg" alt="childrenOfMen" /></p>
+<div style="text-align: right"><span style="font-size:.8em; ">Image Copyright: https://en.wikipedia.org/wiki/Children_of_Men</span></div>
+<p><br /></p>
 
-<p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
+<p>이 영화는 매번 리스트를 갈아 엎을때마다 사라지지 않고 내 영화 위시리스트의 자리를 지켰다. 무척 중요했다기 보다 영화 제목이 주는 무게감에 쉽사리 손이가지 않았던지, 이십대 중반에 적어놓았던 메모를 이제야 해결했다.</p>
 
+<p>사실 지금에서야 보게 된 것이 다행이라고도 생각한다. 그동안 나에게 많은 일이 있었으니.</p>
 
-<hr />
+<p><strong>'/the Social Dilemma'</strong>를 보고 난 직후에 이 영화를 봤기 때문일까. <strong>'Childeren of Men'</strong>은 훨씬 더 현실감있게 다가왔다. COVID-19시대를 살아가면서 <strong>'/the Social Dilemma'</strong>라는 다큐는 가까운 미래에 대한 문제제기로, <strong>'Childeren of Men'</strong>은 그 제기되었던 문제가 맞아떨어져 불러오게 될 결과를 그린것처럼 보였다.</p>
 
-<h1 id="heading1">Heading 1</h1>
+<p><img src="/assets/images/socialDilemma.png" alt="theSocialDilemma" /></p>
+<div style="text-align: right"><span style="font-size:.8em; ">Image Copyright: Netflix_/theSocialDilemma</span></div>
+<p><br /></p>
 
-<h2 id="heading2">Heading 2</h2>
+<p>이 영화는 매번 리스트를 갈아 엎을때마다 사라지지 않고 내 영화 위시리스트의 자리
 
-<h3 id="heading3">Heading 3</h3>
+<p>소셜 딜레마라는 다큐와 칠드런 오브 맨 이라는 영화는 아래 2가지 질문에 대한 아이디어를 준다.</p>
 
-<h4 id="heading4">Heading 4</h4>
+```
+1)정보에 대한 접근은 자유로워야 하는가?<br />
+2) 누구나 자유롭게 발언할 권리가 있는가?
+```
 
-<h5 id="heading5">Heading 5</h5>
+<br />
+<br />
+***
 
-<h6 id="heading6">Heading 6</h6>
+#### 정보 접근의 자유<br />
 
-<hr />
+정보접근의 자유는 아주 기본적인 권리이자 궁극적으로 문맹을 없애기 위한 공공도서관의 설립 이유이기도 하다.
 
-<p>Lorem ipsum dolor sit amet, <a title="test link" href="#">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized.</em> Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline.</span> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
+<p>대형 포털 사이트의 경우에도 이 거대한 이유 때문에 쉽게 검색어를 지우거나 검열할 수 없다.
+검색쪽에서 일할 당시에도 이 부분 때문에 항상 주제가 민감해지곤 했던 기억이 있다. 20대 초반부터 후반까지 이 중요한 권리는 어떤 주제를 대하던 나에겐 가장 먼저 떠오르는 전제가 되었고, 이번에도 역시 그러했다.</p>
 
-<p><abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <code>COPY <var>filename</var></code>. <del>Dinner’s at 5:00.</del> <ins>Let’s make that 7.</ins> This <span style="text-decoration:line-through;">text</span> has been struck.</p>
-
-<hr />
-
-<h2 id="media">Media</h2>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-
-<h3 id="bigimage">Big Image</h3>
-
-<p><img src="http://demo.ghost.io/content/images/2014/09/testimg1.jpeg" alt="Test Image" /></p>
-
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-<h3 id="smallimage">Small Image</h3>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-
-<p><img src="http://demo.ghost.io/content/images/2014/09/testimg2.jpg" alt="Small Test Image" /></p>
-
-<p>Labore et dolore.</p>
-
-<hr />
-
-<h2 id="listtypes">List Types</h2>
-
-<h3 id="definitionlist">Definition List</h3>
-
-<dl>
-<dt>Definition List Title</dt>
-<dd>This is a definition list division.</dd>
-<dt>Definition</dt>
-<dd>An exact statement or description of the nature, scope, or meaning of something: <em>our definition of what constitutes poetry.</em></dd>
-</dl>
-
-<h3 id="orderedlist">Ordered List</h3>
-
-<ol>
-<li>List Item 1  </li>
-<li>List Item 2 <br />
-<ol><li>Nested list item A</li>
-<li>Nested list item B</li></ol></li>
-<li>List Item 3</li>
-</ol>
-
-<h3 id="unorderedlist">Unordered List</h3>
-
-<ul>
-<li>List Item 1</li>
-<li>List Item 2
-<ul><li>Nested list item A</li>
-<li>Nested list item B</li></ul></li>
-<li>List Item 3</li>
-</ul>
-
-<hr />
-
-<h2 id="table">Table</h2>
-
-<table>
-<tbody>
-<tr>
-<th>Table Header 1</th>
-<th>Table Header 2</th>
-<th>Table Header 3</th>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr class="even">
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-</tbody>
-</table>
-
-<hr />
-
-<h2 id="preformattedtext">Preformatted Text</h2>
-
-<p>Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.</p>
-
-<h3 id="code">Code</h3>
-
-<p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>&lt;pre&gt;</code> block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.</p>
-
-<p>Code blocks can also be inserted with the highlight tag as below:</p>
-<pre>
-
-    {% highlight language-x %}
-    # some code
-    {% endhighlight %}
-
-</pre>
-
-<p>More information about code highlighting in jekyll can be found  <a href="https://jekyllrb.com/docs/templates/#code-snippet-highlighting">in Jekyll documentation</a>.</p>
-
-<p>These area a couple of examples showing the resulting highlighted code:</p>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* css code sample */</span>
-<span class="nf">#container</span> <span class="p">{</span>
-    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
-    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
-    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
-
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// javascript code sample</span>
-<span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-  <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
-  <span class="na">url</span><span class="p">:</span> <span class="s1">'backend.php'</span><span class="p">,</span>
-  <span class="na">data</span><span class="p">:</span> <span class="s2">"q="</span><span class="o">+</span><span class="nx">myform</span><span class="p">.</span><span class="nx">serialize</span><span class="p">(),</span>
-  <span class="na">success</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
-    <span class="c1">// on success use return data here</span>
-  <span class="p">},</span>
-  <span class="na">error</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">xhr</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">exception</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">// if ajax fails display error alert</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s2">"ajax error response type "</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">});</span></code></pre></figure>
-
-<p>Now you can also use <a href="https://highlightjs.org/">highlight.js</a>.
-For more on how to use it and on the available styles check their
-<a href="https://highlightjs.org/static/demo/">demo</a> and
-<a href="http://highlightjs.readthedocs.org/en/latest/">documentation</a> pages.</p>
-
-<div class="system">
-<pre><code class="swift">// Swift code sample
-import Foundation
-
-@objc class Person: Entity {
-  var name: String!
-  var age:  Int!
-
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
-
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -> String {
-    return "\(name) is \(age + offset) years old"
-  }
-}
-</code></pre>
-</div>
-
-
-<hr />
-
-<h2 id="blockquotes">Blockquotes</h2>
-
-<p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
-
-<blockquote>
-  <p>Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. <cite>— <a href="http://en.wikipedia.org/wiki/HAL_9000">HAL 9000</a></cite></p>
-</blockquote>
-
-<p>And here’s a bit of trailing text.</p>
-
-<hr />
-
-<h2 id="textlevelsemantics">Text-level semantics</h2>
-
-<p>The <a href="#">a element</a> example <br />
-The <abbr>abbr element</abbr> and <abbr title="Title text">abbr element with title</abbr> examples <br />
-The <b>b element</b> example <br />
-The <cite>cite element</cite> example <br />
-The <code>code element</code> example <br />
-The <del>del element</del> example <br />
-The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples <br />
-The <em>em element</em> example <br />
-The <i>i element</i> example <br />
-The <ins>ins element</ins> example <br />
-The <kbd>kbd element</kbd> example <br />
-The <mark>mark element</mark> example <br />
-The <q>q element <q>inside</q> a q element</q> example <br />
-The <s>s element</s> example <br />
-The <samp>samp element</samp> example <br />
-The <small>small element</small> example <br />
-The <span>span element</span> example <br />
-The <strong>strong element</strong> example <br />
-The <sub>sub element</sub> example <br />
-The <sup>sup element</sup> example <br />
-The <var>var element</var> example <br />
-The <u>u element</u> example</p>
-
-<hr />
-
-<h2 id="forms">Forms</h2>
-
-<form>
-<fieldset>
-<legend>Inputs as descendents of labels (form legend)</legend>
-<label>
-<b>Text input</b>
-<input type="text" value="default value">
-</label>
-<label>
-<b>Email input</b>
-<input type="email">
-</label>
-<label>
-<b>Search input</b>
-<input type="search">
-</label>
-<label>
-<b>Tel input</b>
-<input type="tel">
-</label>
-<label>
-<b>URL input</b>
-<input type="url" placeholder="http://">
-</label>
-<label>
-<b>Password input</b>
-<input type="password" value="password">
-</label>
-<label>
-<b>File input</b>
-<input type="file">
-</label>
-<label>
-<b>Radio input</b>
-<input type="radio" name="rad">
-</label>
-<label>
-<b>Checkbox input</b>
-<input type="checkbox">
-</label>
-<label>
-<input type="radio" name="rad"> Radio input
-</label>
-<label>
-<input type="checkbox"> Checkbox input
-</label>
-<label>
-<b>Select field</b>
-<select>
-<option>Option 01</option>
-<option>Option 02</option>
-</select>
-</label>
-<label>
-<b>Textarea</b>
-<textarea cols="30" rows="5" >Textarea text</textarea>
-</label>
-</fieldset>
-
-<fieldset>
-<legend>Clickable inputs and buttons</legend>
-<input type="image" src="http://placekitten.com/90/24" alt="Image (input)">
-<input type="reset" value="Reset (input)">
-<input type="button" value="Button (input)">
-<input type="submit" value="Submit (input)">
-<button type="reset">Reset (button)</button>
-<button type="button">Button (button)</button>
-<button type="submit">Submit (button)</button>
-</fieldset>
-
-<fieldset id="boxsize">
-<legend>box-sizing tests</legend>
-<div><input type="text" value="text"></div>
-<div><input type="email" value="email"></div>
-<div><input type="search" value="search"></div>
-<div><input type="url" value="http://example.com"></div>
-<div><input type="password" value="password"></div>
-
-<div><input type="color" value="#000000"></div>
-<div><input type="number" value="5"></div>
-<div><input type="range" value="10"></div>
-<div><input type="date" value="1970-01-01"></div>
-<div><input type="month" value="1970-01"></div>
-<div><input type="week" value="1970-W01"></div>
-<div><input type="time" value="18:23"></div>
-<div><input type="datetime" value="1970-01-01T00:00:00Z"></div>
-<div><input type="datetime-local" value="1970-01-01T00:00"></div>
-
-<div><input type="radio"></div>
-<div><input type="checkbox"></div>
-
-<div><select><option>Option 01</option><option>Option 02</option></select></div>
-<div><textarea cols="30" rows="5" >Textarea text</textarea></div>
-
-<div><input type="image" src="http://placekitten.com/90/24" alt="Image (input)"></div>
-<div><input type="reset" value="Reset (input)"></div>
-<div><input type="button" value="Button (input)"></div>
-<div><input type="submit" value="Submit (input)"></div>
-
-<div><button type="reset">Reset (button)</button></div>
-<div><button type="button">Button (button)</button></div>
-<div><button type="submit">Submit (button)</button></div>
-</fieldset>
-</form>
-
-<hr />
-
-<h2 id="embeds">Embeds</h2>
-
-<p>Sometimes all you want to do is embed a little love from another location and set your post alive.</p>
-
-<h3 id="video">Video</h3>
-
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<iframe src="//player.vimeo.com/video/103224792?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h3 id="slides">Slides</h3>
-
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<script async class="speakerdeck-embed" data-id="34d2856027ce01316b5d621ab8e7d421" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h3 id="audio">Audio</h3>
-
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169381837&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h3 id="code">Code</h3>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-
-<p><div data-height="268" data-theme-id="0" data-slug-hash="bcqhe" data-default-tab="js" data-user="rglazebrook" class='codepen'></p>
-
-<pre><code>var c = new Sketch.create({autoclear: false}),
-    bigCircle = 50,
-    littleCircle = 5,
-    // The velocity value determines how much to move the spinner head (in radians).
-    velocity = 0.105,
-    hue = 0,
-    // The alpha value below determines the length of the spinner&#39;s tail.
-    bg = &#39;rgba(40,40,40,.075)&#39;;
-    Spinner = function() {};
-
-Spinner.prototype.setup = function() {
-  this.x = c.width / 2;
-  this.y = c.height / 2 - bigCircle;
-  this.rotation = 0;
-}
-Spinner.prototype.update = function() {
-  this.rotation += velocity;
-  this.rotation = this.rotation % TWO_PI;
-  this.x = c.width /2 + cos(this.rotation) * bigCircle;
-  this.y = c.height / 2 + sin(this.rotation) * bigCircle;
-}
-Spinner.prototype.draw = function() {
-  c.fillStyle = &#39;hsl(&#39;+hue+&#39;,50%,50%)&#39;;
-  c.beginPath();
-  c.arc(this.x, this.y, littleCircle, 0, TWO_PI);
-  c.fill();
-  c.closePath();
-}
-c.setup = function() {
-  spinner = new Spinner();
-  spinner.setup();
-}
-c.update = function() {
-  spinner.update();
-  hue = ++hue % 360;
-}
-c.draw = function() {
-  spinner.draw();
-  c.fillStyle = bg;
-  c.fillRect(0,0,c.width,c.height);
-}
-</code></pre>
-
-<p>See the Pen <a href='http://codepen.io/rglazebrook/pen/bcqhe/'>Simple Rotating Spinner</a> by Rob Glazebrook (<a href='http://codepen.io/rglazebrook'>@rglazebrook</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-<p></div><script async src="//codepen.io/assets/embed/ei.js"></script></p>
-
-<p>Isn't it beautiful?</p>
+<p><strong>소셜딜레마</strong>에서는 인간에게 이롭고 혁명적이게 시작했던 이 '정보접근의 자유'라는 거대한 모토가 어떤것들을 아무런 윤리적 책임감 없이 가능하게 했는지 설명한다. 다큐에서 디자인 윤리학자 <strong>Tristan Harris</strong>는 현재 소셜 미디어를 포함한 여러 서비스들이 얼마나 인간 친화적이지 않게 개발되고 있는지 강하게 호소한다.</p>
+</p>
 
 	  ]]></description>
 	</item>
 
 	<item>
-	  <title>The Businessman & the fisherman</title>
-	  <link>//the-businessman-and-fisherman</link>
+	  <title>마크업 언어(html) 태그 정리</title>
+	  <link>/RulersOth.blog//jayb/html-tags</link>
 	  <author></author>
-	  <pubDate>2014-08-12T12:18:00+02:00</pubDate>
-	  <guid>//the-businessman-and-fisherman</guid>
+	  <pubDate>2020-09-14T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/html-tags</guid>
 	  <description><![CDATA[
-	     <p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.</p>
+	     <blockquote>
+  <p>마크업 언어 중 하나인 html의 태그 및 속성을 정리 해본다. html은 웹페이지의 뼈대를 만드는 언어라고 할 수 있다. 프로그래밍 언어라고 분류하기에는 조금 가벼운 감이 있지만 프론트 엔드를 구성함에 있어 아주 중요한 언어이다. 웹페이지는 대부분 html, CSS, Javascript를 사용해 구성되고 있으며 여기서 html과 CSS는 움직임이 없는 화면을 만드는 데 쓰인다.</p>
+</blockquote>
 
-<p>“How long did it take you to catch them?” the American asked.</p>
+<hr />
 
-<p>“Only a little while,” the Mexican replied in surprisingly good English.</p>
+<h4 id="1-기본-구성-tags">1. 기본 구성 tags</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">" "</span> <span class="na">dir=</span><span class="s">"ltr"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
 
-<p>“Why don’t you stay out longer and catch more fish?” the American then asked.</p>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>!DOCTYPE html</strong> : html 문서 유형 (html 5 이후로 거의 현상태로 통일되었다.)</li>
+  <li><strong>html</strong> : 웹 페이지 시작과 끝</li>
+  <li><strong>body</strong> : head를 제외한 화면에 표현되는 부분</li>
+  <li><strong>head</strong> : 상단 영역 혹은 제목 영역으로 화면에 표현되는 부분</li>
+  <li><strong>title</strong> : 웹페이지 제목 표시줄에 표현되는 부분</li>
+</ul>
 
-<p>“I have enough to support my family and give a few to friends,” the Mexican said as he unloaded them into a basket.</p>
+<hr />
 
-<p>“But… What do you do with the rest of your time?”</p>
+<h4 id="2-분류-tags">2. 분류 tags</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
 
-<p>The Mexican looked up and smiled. “I sleep late, fish a little, play with my children, take a siesta with my wife, Julia, and stroll into the village each evening, where I sip wine and play guitar with my amigos. I have a full and busy life, señor.”</p>
+<span class="nt">&lt;span&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
 
-<p>The American laughed and stood tall. “Sir, I’m a Harvard M.B.A. and can help you. You should spend more time fishing, and with the proceeds, buy a bigger boat. In no time, you could buy several boats with the increased haul. Eventually, you would have a fleet of fishing boats.”</p>
+<span class="nt">&lt;pre&gt;</span>
+<span class="nt">&lt;/pre&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>div</strong> : 블록 형식으로 분할 (해당 블록 전체에 동일한 스타일 적용/ 자바 스크립트 블록적용)</li>
+  <li><strong>span</strong> : 인라인 형식으로 분할 (텍스트 일부에 스타일 적용/ 자바 스크립트 일부 텍스트 적용)</li>
+  <li><strong>pre</strong> : 그대로 출력</li>
+</ul>
 
-<p>He continued, “Instead of selling your catch to a middleman, you would sell directly to the consumers, eventually opening your own cannery. You would control the product, processing, and distribution. You would need to leave this small coastal fishing village, of course, and move to Mexico City, then to Los Angeles, and eventually to New York City, where you could run your expanded enterprise with proper management.</p>
+<hr />
 
-<p>The Mexican fisherman asked, “But, señor, how long will all this take?”</p>
+<h4 id="3-서식-tags">3. 서식 tags</h4>
 
-<p>To which the American replied, “15-20 years, 25 tops.”</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>html을 배워보자<span class="nt">&lt;/h1&gt;</span>
+I disapprove of what you say, but I will <span class="nt">&lt;strong&gt;</span>defend to the death<span class="nt">&lt;/strong&gt;</span> your right to say it.
+(<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fethw.org%2FDonald_E._Knuth&amp;psig=AOvVaw24RzNXarq08C7HvAA_HoVw&amp;ust=1599739462075000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCIiv6ISE3OsCFQAAAAAdAAAAABAD"</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">title=</span><span class="s">"철학자, 작가"</span><span class="nt">&gt;</span>François-Marie Arouet (Voltaire)<span class="nt">&lt;/a&gt;</span>)
 
-<p>“But what then, señor?”</p>
+<span class="nt">&lt;ul&gt;</span> unodered list
+속성의 순서는 상관 없음
+마우스오버 = 타이틀<span class="nt">&lt;br&gt;</span>
+anchor에서 온 a<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
 
-<p>The American laughed and said, “That’s the best part. When the time is right, you would announce an IPO and sell your company stock to the public and become very rich. You would make millions.”</p>
+<span class="nt">&lt;ul&gt;</span> ul=list
+<span class="nt">&lt;li&gt;</span>문법1<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법2<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법3<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법4<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
 
-<p>“Millions señor? Then what?”</p>
+<span class="nt">&lt;ol&gt;</span> odered list
+	<span class="nt">&lt;li&gt;</span>hello<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>hallo<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>hi<span class="nt">&lt;/li&gt;</span>
 
-<p>“Then you would retire and move to a small coastal fishing village, where you would sleep late, fish a little, play with your kids, take a siesta with your wife, and stroll in to the village in the evenings where you could sip wine and play your guitar with your amigos.”</p>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>h1~h6</strong> : 제목 크기별</li>
+  <li><strong>ul</strong> : unodered list</li>
+  <li><strong>ol</strong> : ordered list</li>
+  <li><strong>li</strong> : list</li>
+  <li><strong>br</strong> : 줄바꿈</li>
+  <li><strong>hr</strong> : 수평줄</li>
+  <li><strong>strong , em</strong> : 강조</li>
+  <li><strong>b</strong> : 진하게</li>
+  <li><strong>small</strong> : 한 단계 작게</li>
+  <li><strong>del</strong> : 취소선</li>
+  <li><strong>ins</strong> : 밑줄</li>
+  <li><strong>sup</strong> : 제곱근 등 표시</li>
+  <li><strong>sub</strong> : 밑 등 표시</li>
+  <li><strong>mark</strong> : 마크(하이라이트)</li>
+  <li><strong>a</strong> : 링크 삽입</li>
+</ul>
 
-<p>Adapted from the “Anekdote zur Senkung der Arbeitsmoral” by <strong>Heinrich Böll</strong></p>
+<hr />
 
-<p>An influential German write and Nobel Prize for Literature in 1972.</p>
+<h4 id="4-meta-tags">4. meta tags</h4>
+<ul>
+  <li><strong>meta</strong> : 문자인코딩 방식 등</li>
+  <li><strong>base</strong> : URL/웹 페이지 출력될 윈도우 설정</li>
+  <li><strong>style</strong> : CSS 스타일 시트</li>
+  <li><strong>script</strong> : 자바스크립트 코드</li>
+  <li><strong>link</strong> : CSS 파일 불러오기 (head에서만 사용)</li>
+</ul>
+
+<hr />
+
+<h4 id="5-이미지-삽입-tags">5. 이미지 삽입 tags</h4>
+<ul>
+  <li><strong>img</strong> : 이미지</li>
+  <li><strong>src</strong> : URL</li>
+  <li><strong>alt</strong> : 불러올 이미지가 없을 경우 출력될 문자열</li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Writing with markdown</title>
+	  <link>/RulersOth.blog//jayb/writing-with-markdown</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/writing-with-markdown</guid>
+	  <description><![CDATA[
+	     <blockquote>
+  <p>마크다운은 <strong>html보다</strong> 쉬운 온라인 문서 작성방법이다. 마크다운으로 작성된 문서는 html로 변환이 쉬워 블로그나 간편한 웹 문서를 만들기에 적합하다. 하지만 마크다운 문서는 작성이 쉬운 반면, 웹 상에서 올바른 형식으로 인식하지 못하는 경우가 많기 때문에 자동으로 html 문서 형식으로 변환해 주는 과정이 필요하다. 이 대표적인 툴이 깃헙 블로그를 만들때 쓰이는 <strong>jekyll 이다.</strong><br /> - 내가 공부한 건 그렇다.</p>
+</blockquote>
+
+<hr />
+<h4 id="1-heading-편집">1. Heading 편집</h4>
+<p>소제목과 같이 하이라이트가 필요한 경우 ‘#, -, =’ 사용할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> # heading
+ ## heading
+ heading
+ --
+ heading
+ ==
+ ...
+</code></pre></div></div>
+<h1 id="heading">Heading</h1>
+<h2 id="heading-1">Heading</h2>
+<h3 id="heading-2">Heading</h3>
+<h4 id="heading-3">Heading</h4>
+<h5 id="heading-4">Heading</h5>
+<h6 id="heading-5">Heading</h6>
+
+<h2 id="heading-6">heading</h2>
+<p>heading
+=====</p>
+
+<h5 id="11-강조">1.1 강조</h5>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>강조효과는 *asterisks* or _underscores_ 사용한다.
+강한 강조 효과는 두개씩 양쪽에 사용 **asterisks** or __underscores__.
+취소선은 ~~Scratch this.~~
+
+</code></pre></div></div>
+<p>강조효과는 <em>asterisks</em> or <em>underscores</em> 사용한다. <br />
+강한 강조 효과는 두개씩 양쪽에 사용 <strong>asterisks</strong> or <strong>underscores</strong>. <br />
+취소선은 <del>Scratch this.</del> <br /></p>
+
+<hr />
+<h4 id="2-줄바꿈">2. 줄바꿈</h4>
+<p>줄바꿈 서식은 <br />을 사용해서 적용할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>언젠가 나도 이 페이지를 안보고 바로 마크다운 문서를&lt;br&gt;
+작성할 수 있을까요?
+</code></pre></div></div>
+<p>언젠가 나도 이 페이지를 안보고 바로 마크다운 문서를<br />
+작성할 수 있을까요?</p>
+
+<h4 id="3-인용문구-묶기">3. 인용문구 묶기</h4>
+<p>인용 문구는 ‘&gt;’를 이용해서 묶어서 표현할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; I Disapprove of What You Say, &lt;br&gt;
+But I Will Defend to the Death Your Right to Say It &lt;br&gt; -Voltaire
+</code></pre></div></div>
+<blockquote>
+  <p>I Disapprove of What You Say, <br />
+But I Will Defend to the Death Your Right to Say It <br /> -Voltaire</p>
+</blockquote>
+
+<h4 id="4-실선-넣기">4. 실선 넣기</h4>
+<p>실선은 ‘*, -, _‘를 사용해서 표현할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>기호들을 3개 이상씩 써주면 된다.
+***
+---
+___
+</code></pre></div></div>
+<hr />
+<hr />
+<hr />
+
+<h4 id="5-코드-블럭-넣기">5. 코드 블럭 넣기</h4>
+<p>코드 블럭 효과는 ‘`‘를 사용해서 표현할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>계속 쓰고 있었는데 이렇게 ```를 세개씩 사용하면 전체 문단을 블럭할 수 있다.
+`세개 뒤에 프로그래밍 언어를 쓰면, 아래와 같이 코드를 블럭해서 표현할 수 있다.
+</code></pre></div></div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">execute</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">try</span> <span class="o">{</span>
+            <span class="n">game</span><span class="o">.</span><span class="na">place</span><span class="o">(</span><span class="n">from</span><span class="o">,</span> <span class="n">to</span><span class="o">);</span>
+            <span class="n">ReadWrite</span><span class="o">.</span><span class="na">writeLine</span><span class="o">(</span><span class="n">InOutputStrings</span><span class="o">.</span><span class="na">POSITIVE</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">GameLogicException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">ReadWrite</span><span class="o">.</span><span class="na">writeError</span><span class="o">(</span><span class="n">e</span><span class="o">.</span><span class="na">getMessage</span><span class="o">());</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+<p><code class="highlighter-rouge">한 문장만 블럭하기</code></p>
+
+<hr />
+
+<h4 id="6-링크-넣기">6. 링크 넣기</h4>
+<p>링크는 세가지 종류가 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1) 인라인 링크
+[RulersOth](http://RulersOth.github.io)
+2) url 삽입
+&lt;http://RulersOth.github.io&gt;
+3) reference 삽입
+Some links need references.
+[Some links]:(http://RulersOth.github.io)
+</code></pre></div></div>
+<p>● 인라인 링크<br />
+<a href="http://RulersOth.github.io">RulersOth</a><br />
+● url 삽입<br />
+<a href="http://RulersOth.github.io">http://RulersOth.github.io</a><br />
+● reference 삽입<br />
+[Some links need references.][1] <br />
+[1]:(http://RulersOth.github.io/) <br /></p>
+
+<hr />
+
+<h4 id="7-표-만들기">7. 표 만들기</h4>
+<p>표는  콜론(:)과 dash(-)를 이용해 구성한다. 콜론은 칼럼을 연결하고 dash는 헤드 셀을 구분한다.
+Pipes(|)는 칼럼을 구분한다.  마지막 파이프는 생략 가능하다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Number | *name* | status |
+------:|-----:|-------:|
+1 | mark | down |
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Number</th>
+      <th style="text-align: right"><em>name</em></th>
+      <th style="text-align: right">status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">mark</td>
+      <td style="text-align: right">down</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h4 id="8-글자-색상-변경">8. 글자 색상 변경</h4>
+<p>글자 색상은 html을 작성해서 변경 할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span style="color:blue"&gt;the color is blue&lt;/span&gt;
+&lt;span style="color:#D07111"&gt;#D07111&lt;/span&gt;
+&lt;span style="color:rgb(123, 200, 5)"&gt;different setting of rgb&lt;/span&gt;
+</code></pre></div></div>
+<p><span style="color:blue">the color is blue</span> <br />
+<span style="color:#D07111">#D07111</span> <br />
+<span style="color:rgb(123, 200, 5)">different setting of rgb</span> <br /></p>
+
+<hr />
+
+<h5 id="︎-reference">◼︎ Reference</h5>
+<p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Github Markdown Cheatsheet</a></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>related Tech</title>
+	  <link>/RulersOth.blog//jayb/tech-blog</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/tech-blog</guid>
+	  <description><![CDATA[
+	     <p>This is my tech posting page</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Personal Log</title>
+	  <link>/RulersOth.blog//jayb/personal-log</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/personal-log</guid>
+	  <description><![CDATA[
+	     <p>The things that I should finish until the end of this year.</p>
+
+<hr />
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />revision of GBI</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />studying Java</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />studying html and CSS</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />revision of Hm and La</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />installing memorial bench at Konstanz</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />developing App for Spazieren</li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Github_creating branch</title>
+	  <link>/RulersOth.blog//jayb/creating-branch</link>
+	  <author></author>
+	  <pubDate>2020-09-03T12:18:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/creating-branch</guid>
+	  <description><![CDATA[
+	     <p>브랜치 생성은 깃헙 페이지 자체에서 할 수 있지만, 터미널을 이용하면 더욱 편리하게 할 수 있다.<br />
+아래의 명령어를 통해 브랜치를 생성, 디폴트 브랜치를 변경 할 수 있다.</p>
+
+<blockquote>
+  <p>● git init<br />
+● git remote add origin https://github.com/~.git<br />
+● git pull origin [branch name]<br />
+● git checkout -b [branch name]<br />
+● git add .<br />
+● git commit -m “[message]”<br />
+● git push origin [branch name]<br /></p>
+</blockquote>
 
 	  ]]></description>
 	</item>
