@@ -12,15 +12,12 @@ subclass: 'post tag-Personal'
 <br>
 
 ***
-20대 중반부터 숙제처럼 따라다니던 영화를 최근에서야 보게되었다.<br>
+
+>20대 중반부터 숙제처럼 따라다니던 영화를 최근에서야 보게되었다.<br><br>이 영화는 매번 리스트를 갈아 엎을때마다 사라지지 않고 내 영화 위시리스트의 자리를 지켰다. 무척 중요했다기 보다 영화 제목이 주는 무게감에 쉽사리 손이가지 않았던지, 이십대 중반에 적어놓았던 메모를 이제야 해결했다.<br><br>사실 지금에서야 보게 된 것이 다행이라고도 생각한다. 그동안 나에게 많은 일이 있었으니.<br>
+
 
 ![childrenOfMen](https://user-images.githubusercontent.com/59648602/95326101-5b096a80-08a2-11eb-8a69-4bb2856448bd.jpg){:width="700px"}
 <div style="text-align: center"><span style="font-size:.8em;">Image Copyright:https://en.wikipedia.org/wiki/Children_of_Men</span></div><br>
-
-
-이 영화는 매번 리스트를 갈아 엎을때마다 사라지지 않고 내 영화 위시리스트의 자리를 지켰다. 무척 중요했다기 보다 영화 제목이 주는 무게감에 쉽사리 손이가지 않았던지, 이십대 중반에 적어놓았던 메모를 이제야 해결했다.<br>
-
-사실 지금에서야 보게 된 것이 다행이라고도 생각한다. 그동안 나에게 많은 일이 있었으니.<br>
 
 <strong>'/the Social Dilemma'</strong>를 보고 난 직후에 이 영화를 봤기 때문일까. <strong>'Childeren of Men'</strong>은 훨씬 더 현실감있게 다가왔다. COVID-19시대를 살아가면서 <strong>'/the Social Dilemma'</strong>라는 다큐는 가까운 미래에 대한 문제제기로, <strong>'Childeren of Men'</strong>은 그 제기되었던 문제가 맞아떨어져 불러오게 될 결과를 그린것처럼 보였다.<br>
 
@@ -32,8 +29,8 @@ subclass: 'post tag-Personal'
 
 
 ```
-1) 정보에 대한 접근은 자유로워야 하는가?
-2) 누구나 자유롭게 발언할 권리가 있는가?
+a) 정보에 대한 접근은 자유로워야 하는가?
+b) 누구나 자유롭게 발언할 권리가 있는가?
 ```
 ***
 
@@ -83,8 +80,11 @@ subclass: 'post tag-Personal'
 
 #### '이거 정보 검열 아냐?'
 
-라고 말하던 단계에서 이제 한발자국 더 나아가야만 하는 이유가 있다는 것이다. 그 이유는 앞서 말했던 2)에서 또 다시 찾을 수 있다. 누구나 자유롭게 발언할 수 있는 권리, 표현의 자유에 의해서 나타나는 일들은 이 알고리즘을 더 치명적이게 만든다.
+라고 말하던 단계에서 이제 한발자국 더 나아가야만 하는 이유가 있다는 것이다. 그 이유는 앞서 말했던 b)에서 또 다시 찾을 수 있다. 누구나 자유롭게 발언할 수 있는 권리, 표현의 자유에 의해서 나타나는 일들은 이 알고리즘을 더 치명적이게 만든다.
 
 ![civilwar1](https://user-images.githubusercontent.com/59648602/95343798-3967ad80-08b9-11eb-9a41-b1ce276d72a9.png){:width="500px"}
 ![civilwar2](https://user-images.githubusercontent.com/59648602/95343811-3cfb3480-08b9-11eb-85f8-903ae9b63595.png){:width="500px"}
 <div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div><br>
+
+
+Civilising Information -2) 에서 계속 됩니다.
