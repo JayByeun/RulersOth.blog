@@ -40,6 +40,7 @@ b) Everyone has a right to freedom of expression?
 
 #### Freedom of access to information
 
+<br>
 Freedom of access to information-also known as the reason of existence of public library- is very basic human rights and the opportunity of learning. In the case of corporations which provide Search Engine, they cannot delete and censor any information and search results as they like because of this huge and sensitive reason. This policy is applied to the Search Engine of South Korea as well. To the company which delivers not only source and materials but News and current issues in South Korea such as <strong>Naver</strong> and <strong>Kakao corp</strong>, it has more impact than just policy that we can imagine. I remember that the general issues used to be more sensitive for this aspect, when I worked at Search Engine part.
 Moreover, the freedom of access to information would be my first preposition for entire my twenties and it did for this time too.
 <br>
@@ -55,6 +56,7 @@ When UX(User Experience) designers project and update certain services and funct
 
 #### Data equals Profit
 
+<br>
 Although some corporations and some people accessed to this data for providing better service, they cannot disregard obsession of <strong>‘Retention and Conversion Data’</strong> to maintain long-lasting business. <strong>Tristan Harris</strong> assert that at this point, human unfriendly UX(User Experience) is designed.
 <br>
 
@@ -76,6 +78,7 @@ However, when we make ourselves throw into information, what does the company wh
 
 #### Stimulation by psychology comes with Addiction
 
+<br>
 Facebook feeds, pages of Chrome and contents of Instagram let us expose to tremendous information under the name of Algorithms. In this information, the advertisement exist which is based on that we agreed with collecting our information unconsciously. The value of this advertisement is assigned according to the <strong>‘Retention and Conversion data’</strong>. Corporations make users consume contents which more people clicked and watched to expose to advertisement for long, actively and frequently. Selecting contents according to the Algorithms as the purpose above let users encounter sometimes excessively provocative or fake information regardless of user’s age and state.
 <br>
 
@@ -94,7 +97,7 @@ That is, management of corporation pursuing profitability can often drive users 
 If they did not intend this on purpose, then they don’t have any responsibility for the result that such flow of information has brought? The users have their own responsibility by themselves, because they connected to the service with their own will in terms of Freedom of Access to Information?
 <br>
 
-<strong>‘Freedom of Access to Information’<strong> gives users the opportunity of learning and freedom of choice at the same time. That is why users can shut down or delete the service whenever they don’t want to use. Under this freedom of chice, it seems that so many questions are forgiven. However, <strong>learned addiction</strong> by particular functions such as infinitive scroll cloud user’s judgement quite easily.
+<strong>‘Freedom of Access to Information’</strong> gives users the opportunity of learning and freedom of choice at the same time. That is why users can shut down or delete the service whenever they don’t want to use. Under this freedom of chice, it seems that so many questions are forgiven. However, <strong>learned addiction</strong> by particular functions such as infinitive scroll cloud user’s judgement quite easily.
 <br>
 
 ##### Is it ever true that people can shut down the Freedom of Access by themselves anytime?
@@ -104,6 +107,7 @@ The necessity of intervention in access to information of Internet starts with t
 
 #### ‘Is this censoring Information?’
 
+<br>
 I mean that there is a reason that we should move forward from this question. The reason can be found at b) as mentioned earlier again. The right that anyone can speech and express freely make these Algorithms more fatal.
 
 ![civilwar1](https://user-images.githubusercontent.com/59648602/95343798-3967ad80-08b9-11eb-9a41-b1ce276d72a9.png){:width="500px"}
