@@ -68,9 +68,9 @@ Although some corporations and some people accessed to this data for providing b
 
 In this point, the addiction can be started and such strategies can be fatally dangerous to teenagers. The one of the most typical example is infinitive scrolling of Facebook.<br>
 
-The internet services which let people easily and swiftly access to information made people who have common interest exchange their opinions and information without any barriers and deliver latest news faster than ever. Nevertheless, it expose us to tremendous information at the same time. Furthermore, he knowledge that people can read and learn from books and experts can be accessed in real time and if you cannot absorb these in time, sooner or later you are gonna be ‘outdated’. Meanwhile, people have been transferred unconsciously from the era that they ‘search’ what they want at Search Engines to the era that they are ‘dived’ to enormous information for themselves. In oder not to be outdated and sometimes just for fun.<br>
+The internet services which let people easily and swiftly access to information made people who have common interest exchange their opinions and information without any barriers and deliver latest news faster than ever. Nevertheless, it exposes us to tremendous information at the same time. Furthermore, the knowledge that people can read and learn from books and experts, can be accessed in real time and if you cannot absorb these in time, sooner or later you are gonna be <strong>‘outdated’</strong>. Meanwhile, people have been transferred unconsciously <strong>from the era that they ‘search’</strong> what they want at Search Engines <strong>to the era that they are ‘dived’</strong> to enormous information for themselves. In oder not to be outdated and sometimes just for fun.<br>
 
-The desire that people want information as much as possible has positive function of course.
+The desire that people want information as much as possible has positive function, of course.
 However, when we make ourselves throw into information, what does the company which runs such service pursue at the same time?
 <br>
 
@@ -79,7 +79,7 @@ However, when we make ourselves throw into information, what does the company wh
 #### Stimulation by psychology comes with Addiction
 
 <br>
-Facebook feeds, pages of Chrome and contents of Instagram let us expose to tremendous information under the name of Algorithms. In this information, the advertisement exist which is based on that we agreed with collecting our information unconsciously. The value of this advertisement is assigned according to the <strong>‘Retention and Conversion data’</strong>. Corporations make users consume contents which more people clicked and watched to expose to advertisement for long, actively and frequently. Selecting contents according to the Algorithms as the purpose above let users encounter sometimes excessively provocative or fake information regardless of user’s age and state.
+Facebook feeds, pages of Chrome, contents of Instagram and etc. let us expose to tremendous information under the name of Algorithms. In the middle of these information, the advertisement exist which is based on that we agreed with collecting our information unconsciously. The value of this advertisement is assigned according to the <strong>‘Retention and Conversion data’</strong>. It is not illegal in current law, because of our unconscious agreement. Corporations make users consume contents which more people clicked and watched in order to expose to advertisement for long, actively and frequently. Selecting contents according to the Algorithms as the purpose above let users encounter sometimes excessively provocative or fake information regardless of user’s age and state.
 <br>
 
 ![retention](https://user-images.githubusercontent.com/59648602/95340745-d0cb0180-08b5-11eb-8eda-e3bf34947f7e.png){:width="800px"}
@@ -108,7 +108,13 @@ The necessity of intervention in access to information of Internet starts with t
 #### ‘Is this censoring Information?’
 
 <br>
-I mean that there is a reason that we should move forward from this question. The reason can be found at b) as mentioned earlier again. The right that anyone can speech and express freely make these Algorithms more fatal.
+I mean that there is a reason that we should move forward from this question. The reason can be found at the process of <strong>answering b)</strong>.
+<br>
+Before that, I want to note that the right that anyone can speech and express freely can sometimes make these Algorithms more fatal.
+
+<br>
+You can say that,
+"Come on, how could it be so bad? How bad things could we take?"
 
 ![civilwar1](https://user-images.githubusercontent.com/59648602/95343798-3967ad80-08b9-11eb-9a41-b1ce276d72a9.png){:width="500px"}
 ![civilwar2](https://user-images.githubusercontent.com/59648602/95343811-3cfb3480-08b9-11eb-85f8-903ae9b63595.png){:width="500px"}
