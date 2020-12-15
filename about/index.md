@@ -2,11 +2,19 @@
 layout: page
 navigation: true
 title: About
-logo: 'assets/images/logo_B.png'
+logo: "assets/images/logo_B.png"
 ---
-This is my Tech blog.<br>I post here my current projects and interests.
 
-<strong>This is who I am</strong>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy various sports as well as my job. I have played football and basketball in women's sports club for years in South Korea. After moving into Germany, I am looking for a proper team to play.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I love Sci-fi, Gangster, Thriller and Zombi movies and dramas. I usually watch these when I am chilling out at home. But most of time I try to do what I wanna or should do first except for work at home. That is why I am accidentlly doing and using Mathmatics for lifetime!
+
+<br>
+
+##### <strong>Shortly Say I,</strong>
+
+###### <br>
 
 ```
 ● Software Engineer/ UX Designer
@@ -15,12 +23,27 @@ This is my Tech blog.<br>I post here my current projects and interests.
 ● Accidentally doing Mathematics for life
 ● Collecting degrees for fun
 ```
-<strong>Skills</strong>
+
+###### <br>
+
+##### <strong>Skills</strong>
+
+###### <br>
+
 ```
 ● Java
-● front-end (intermediate)
+● front-end
+● Html/Css
+● React.js
+● UX Design
 ```
-<strong>Language</strong>
+
+###### <br>
+
+##### <strong>Language</strong>
+
+###### <br>
+
 ```
 ● English
 ● German
