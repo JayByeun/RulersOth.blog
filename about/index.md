@@ -15,7 +15,7 @@ logo: "assets/images/logo_B.png"
 ###### <br>
 
 ```
-● Software Engineer/ UX Designer
+● Software Engineer/ Front-end Engineer
 ● Ex-Project Lead
 ● Interested in HCI and AI
 ● Accidentally doing Mathematics for life
