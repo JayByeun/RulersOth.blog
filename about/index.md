@@ -6,9 +6,7 @@ logo: "assets/images/logo_B.png"
 ---
 
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy various sports as well as my job. I have played football and basketball in women's sports club for years in South Korea. After moving into Germany, I am looking for a proper team to play.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I love Sci-fi, Gangster, Thriller and Zombi movies and dramas. I usually watch these when I am chilling out at home. But most of time I try to do what I wanna or should do first except for work at home. That is why I am accidentlly doing and using Mathmatics for lifetime!
+# &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jay Byeun
 
 <br>
 
@@ -49,3 +47,13 @@ logo: "assets/images/logo_B.png"
 ● German
 ● Korean
 ```
+
+###### <br>
+
+##### <strong>Interests</strong>
+
+###### <br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy various sports as well as my job. I have played football and basketball in women's sports club for years in South Korea. After moving into Germany, I am looking for a proper team to play.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I love Sci-fi, Gangster, Thriller and Zombi movies and dramas. I usually watch these when I am chilling out at home. But most of time I try to do what I wanna or should do first except for work at home. That is why I am accidentlly doing and using Mathmatics for lifetime!
