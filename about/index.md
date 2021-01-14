@@ -18,6 +18,7 @@ logo: "assets/images/logo_B.png"
 ● Software Engineer/ Front-end Engineer
 ● Ex-Project Lead
 ● Interested in HCI and AI
+● Autonomous driving
 ● Accidentally doing Mathematics for life
 ● Collecting degrees for fun
 ```
