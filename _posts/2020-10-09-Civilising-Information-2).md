@@ -3,17 +3,18 @@ layout: post
 author: JayB
 categories: JayB
 navigation: true
-cover: 'assets/images/cover_macb.JPG'
-logo: 'assets/images/logo.png'
+cover: "assets/images/cover_macb.JPG"
+logo: "assets/images/logo.png"
 tags: Personal
 title: Civilising Information - 2) 문명에서 야만으로
-subclass: 'post tag-Personal'
+subclass: "post tag-Personal"
 ---
+
 <br>
 <br>
 
 > I Disapprove of What You Say, <br>
-But I Will Defend to the Death Your Right to Say It <br> -Voltaire
+> But I Will Defend to the Death Your Right to Say It <br> -Voltaire
 
 <strong>/the Social Dilemma</strong>와 <strong>Children Of Men</strong>을 보고 난 후 나는 아래와 같은 질문을 던졌다.
 
@@ -24,14 +25,14 @@ b) 누구나 자유롭게 발언할 권리가 있는가?
 
 a)에 대한 생각은 <strong>Civilising Information-1)</strong>에서 정리한 바와 같다. 앞서 말했듯이, 정보에 대한 접근은 자유로워야 하지만 그 접근의 자유에 있어서 각 회사들의 윤리적 책임은 피할 수 없는 부분이며 윤리적인 기준을 위해 검열보다는 중재의 방식으로 다각도로 접근할 필요가 있다고 믿는다.<br>
 
-이와 같은 중재의 필요성은 2)에 대한 답을 찾아가면서 더 확실해진다.
+이와 같은 중재의 필요성은 b)에 대한 답을 찾아가면서 더 확실해진다.
 
-***
+---
 
->"유토피아가 될 지 모든 것이 살아지게 될 지는, 최후의 순간이 오기 직전까지 알 수 없다.<br>
--버크민스터 풀러"
+> "유토피아가 될 지 모든 것이 살아지게 될 지는, 최후의 순간이 오기 직전까지 알 수 없다.<br> -버크민스터 풀러"
 
 ![quote](https://user-images.githubusercontent.com/59648602/95562948-17873b80-0a1d-11eb-8bee-b30d3d822e74.png){:width="800px"}
+
 <div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div><br>
 
 위 인용구는 <strong>/the Social Dilemma</strong>의 마지막 장면에 나오는 글이다. 위 문구는 인간의 생산능력이 없어져 인류의 소멸을 기다리며 황폐해져가는 <strong>Children Of Men</strong>의 사회와 일맥상통한다. 나는 위 문구가 '선의의 의도로 시작했던 모든 것들도 인간 사회의 유기적인 작동안에서 중재 없이 균형을 잃게 되면 결국 그 시작이 유토피아를 만들지, 자멸을 만들지는 결론이 날 때까지 모른다.'라는 의미를 담고 있다고 생각한다.<br>
@@ -42,9 +43,10 @@ a)에 대한 생각은 <strong>Civilising Information-1)</strong>에서 정리�
 <br>
 <br>
 
-***
+---
 
 #### 정보 접근의 자유는 다시 표현의 자유로
+
 정보 접근의 자유와 함께, 아니 어쩌면 그 보다 더 우선시 될 수 있는 기본권은 <strong>'표현의 자유'</strong>다. 이 기본권은 당연히 인터넷 상에서도 동일하게 적용된다.
 이 글의 첫 문장을 볼테르의 명언(실제로는 볼테르가 직접한 말이 아니라 볼테르의 사상을 한마디로 정리한 문구라고 한다.)으로 시작한 이유는 바로 여기에 있다.
 
@@ -55,13 +57,15 @@ a)에 대한 생각은 <strong>Civilising Information-1)</strong>에서 정리�
 이러한 표현의 자유가 가장 적극적으로 그리고 가장 극단적으로 사용 되는 곳이 바로 '정치'다.
 
 ![immigrant](https://user-images.githubusercontent.com/59648602/95574997-38a45800-0a2e-11eb-9b8f-ae06e1b40020.png){:width="800px"}
+
 <div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div><br>
 
 #### 극단적인 정보만 수면위로 떠오르게 된다면?
 
-인터넷은 초창기부터 여러 과정을 거치면서 익명성과 함께 정치적인 견해를 자유롭게 펼칠 수 있는 공간이 되었다. 현재는 익명성을 오히려 거부하거나 당당하게 자신을 표현하는 단계까지 와있다. 이처럼 장소의 구애 없이 언제든지 살롱을 열 수 있는 인터넷은 다양한 의견과 사실, 중요한 정보들과 함께 사람들이 기꺼이 주목해야할 만한 주제에 무게감을 가질 수 있게 도와주었다. 하지만 이 과정에서 전세계 동시다발적으로 쏟아지는 정보들은 페이스북,  인스타그램, 트위터와 같은 각 플랫폼에서 앞서 말한 정보접근의 자유의 사각지대를 만나게 된다. 이 알고리즘의 결정체가 최근 더 극단적으로 움직이고 있는 'QAnon'이다.
+인터넷은 초창기부터 여러 과정을 거치면서 익명성과 함께 정치적인 견해를 자유롭게 펼칠 수 있는 공간이 되었다. 현재는 익명성을 오히려 거부하거나 당당하게 자신을 표현하는 단계까지 와있다. 이처럼 장소의 구애 없이 언제든지 살롱을 열 수 있는 인터넷은 다양한 의견과 사실, 중요한 정보들과 함께 사람들이 기꺼이 주목해야할 만한 주제에 무게감을 가질 수 있게 도와주었다. 하지만 이 과정에서 전세계 동시다발적으로 쏟아지는 정보들은 페이스북, 인스타그램, 트위터와 같은 각 플랫폼에서 앞서 말한 정보접근의 자유의 사각지대를 만나게 된다. 이 알고리즘의 결정체가 최근 더 극단적으로 움직이고 있는 'QAnon'이다.
 
 ![QAnon](https://user-images.githubusercontent.com/59648602/95576106-2a573b80-0a30-11eb-9df4-fc760147e288.png){:width="500px"}
+
 <div style="text-align: center"><span style="font-size:.8em;">Image Copyright:https://www.bbc.com/news/world-us-canada-54443878</span></div><br>
 
 트럼프 대통령의 자극적인 포스팅에도 회사의 윤리적 방침을 고수했던 페이스북에서 최근 <strong>QAnon Conspiracy Theory</strong> 그룹들과 계정들을 삭제하겠다고 발표했다. 각종 음모론의 끝판왕이라고 할 수 있는 QAnon 단체들은 트럼프가 세상을 구한다고 믿고 있고 트럼프 대통령은 QAnon에 대해 어느정도 옹호하는 발언을 하면서 이 단체를 사실상 지지하는 형식으로 흘러가게 되었다. 미국 대선을 앞두고 자극적인 정보들이 넘쳐나면서 이 단체는 선을 넘었다는 평가를 받고 있다.<br>
@@ -71,21 +75,22 @@ a)에 대한 생각은 <strong>Civilising Information-1)</strong>에서 정리�
 <br>
 
 #### 극단주의자들의 'go' 사인
+
 극단주의자들은 단체행동을 서슴치 않았고 그 단체 행동은 거대한 가짜뉴스를 생산했다. 독일에서도 이 현상을 극단화 시키는 AfD(독일을 위한 대안당) 규제를 시작하고 있다.<br>
 
 좌가 되었던, 우가 되었던 극단주의자들이 생산하는 정보는 상당히 자극적이고 그런 정보에 지속적으로 노출되다보면 사람들은 무엇이 사실인지를 인지하는데 어려움이 생긴다. 극단적인 내용은 감정의 동요를 불러 일으키고 결국 이성적인 판단 없이 아주 쉽게 참여하게 만든다. 그렇게 참여하고자 하는 욕구가 생길 때, '사실인지 확인하진 않았지만 옳다고 믿는 일'에 힘이 실린다. 이게 그들의 정당화이자 'go(행동해도 좋다)' 사인이다.<br>
 
 이 극단적인 운동과 음모론 생산의 결과는 <strong>'Children of Men'</strong>에서 확인할 수 있다.
 
-
 ![extremist](https://user-images.githubusercontent.com/59648602/95579003-1e21ad00-0a35-11eb-86e8-eec62f44d93c.png){:width="800px"}
+
 <div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div><br>
 
 영화에서는 숭고한 목적으로 시작했던 사상도, 증오로 시작했던 운동도 모두다 대의를 위해 수단과 방법은 무시하면서 정치적 전쟁을, 물리적 전쟁을 일으키는데 일조한다. 나는 휴머니즘 보다 그 어떤 사상과 아이디어도 앞설 수 없다고 믿는다. 인간애보다 그 어떤 대의가 앞서는 순간, 인류는 자멸할 것이다. 그 결과를 처참하게 보여주고 있는 것이 이 영화, <strong>'Children of Men'</strong>이다.
 <br>
 <br>
 
-***
+---
 
 #### 가장 근본적인 인간의 모습
 
@@ -93,16 +98,17 @@ a)에 대한 생각은 <strong>Civilising Information-1)</strong>에서 정리�
 
 ![marika1](https://user-images.githubusercontent.com/59648602/95580930-70180200-0a38-11eb-8054-c8c236d2224a.png){:width="500px"}
 ![marika2](https://user-images.githubusercontent.com/59648602/95580946-74441f80-0a38-11eb-882a-6a721012917a.png){:width="500px"}
+
 <div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div><br>
 
 나는 <strong>'마리카'</strong>와 <strong>'테오'</strong>, 이 두사람이 인간의 가장 중요한 면을 나타내고 있다고 생각한다. 역사속의 수많은 전쟁에서도 있어왔고, 이 영화에서도, 그리고 한국전쟁에서도 있어왔던 사상이라는건 가져보기도 전에 하루의 생존을 감사하게 여기며 살았던 일반적인 시민들. 왼쪽의 총이 자신의 머리를 향할 때 두손을 들어야만 했고 오른쪽의 총이 자신의 머리를 향할 때에도 살기위해 두 손을 높이 들고 항복했던 그 시민들은 <strong>'마리카'</strong>에게서 확인할 수 있다.<br>
 
 <strong>'테오'</strong>는 단 하루를 살더라도 삶의 목적과 함께 살아내는 것. 그것이 인간에게 얼마나 중요한가를 보여준다. 디스토피아를 배경으로 하는 영화들에서 인간애는 종종 중요한 역할을 한다.
 
-
-***
+---
 
 #### 그렇다면, 앞서말했던 이 윤리적 책임은 누구에게 있을까?
+
 <br>
 기업과 개인, 단체와 국가 모두에게 있다.
 
@@ -110,4 +116,4 @@ a)에 대한 생각은 <strong>Civilising Information-1)</strong>에서 정리�
 
 참정권 앞에서 평등해졌듯이, 소아 성애자들을 엄벌로 다스리듯이 우리 사회는 다시 한 번 스스로의 자정작용이 필요한 한 국면에 와있다. 자유국가의 권리를 빼앗는 것이 아니라, 자유 국가를 지키고 누구나 안전하게 자신을 표현할 수 있는 사회를 만들고 유지하기 위해 인터넷 안의 재정비가 필요한 것이다.
 
-the End . 
+the End .
