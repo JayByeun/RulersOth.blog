@@ -803,6 +803,7 @@ body.nav-opened .nav {
 .nav-close:after {
   content: "";
   position: absolute;
+  background: #f5c042;
   top: 0;
   width: 20px;
   height: 1px;
@@ -2052,11 +2053,16 @@ body.page-template .post-title {
 @media only screen and (max-width: 500px) {
   .main-header {
     margin-bottom: 15px;
-    height: 80vh;
+    height: 70vh;
   }
 
   .no-cover.main-header {
     height: 30vh;
+  }
+
+  .nav-closed .no-cover .menu-button {
+    border-color: #111;
+    color: #111;
   }
 
   .paged .main-header {
@@ -2130,7 +2136,7 @@ body.page-template .post-title {
     color: #fff;
     border: none;
     border-radius: 0 0 0 3.5em;
-    background-color: #030303;
+    background-color: #111;
   }
 
   .nav-close {
@@ -2186,7 +2192,7 @@ body.page-template .post-title {
 
   .page-title {
     position: relative;
-    top: -6em;
+    top: -5em;
     left: 2.4em;
     font-size: 3rem;
   }
@@ -2197,7 +2203,7 @@ body.page-template .post-title {
 
   .page-description {
     position: relative;
-    top: -15em;
+    top: -13em;
     left: 6em;
     font-size: 1.2rem;
   }
