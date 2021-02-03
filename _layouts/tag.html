@@ -54,13 +54,13 @@ current: tag
     <nav class="main-nav overlay clearfix">
         {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a>{% endif %}
         {% if page.navigation %}
-            <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+            <a class="menu-button icon-menu" href="#"><span class="word"></span></a>
         {% endif %}
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">{{ page.tag | capitalize }}</h1>
-            <h2 class="page-description">
+            <h1 class="page-title-post">{{ page.tag | capitalize }}</h1>
+            <h2 class="page-description-post">
             {% if tag_description %}
                 {{ tag_description }}
             {% elsif page.tag %}
