@@ -6,7 +6,7 @@ navigation: true
 cover: "assets/images/cover_coffee.JPG"
 logo: "assets/images/logo.png"
 tags: Tech
-title: Civilising Information - 1) Savagery of Civilisation
+title: [Eng]Civilising Information - 2) Savagery of Civilisation
 subclass: "post tag-Tech"
 ---
 

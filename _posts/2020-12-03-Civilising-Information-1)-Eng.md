@@ -6,7 +6,7 @@ navigation: true
 cover: "assets/images/cover_coffee.JPG"
 logo: "assets/images/logo.png"
 tags: Tech
-title: Civilising Information - 1) Actively Passive
+title: [Eng]Civilising Information - 1) Actively Passive
 subclass: "post tag-Tech"
 ---
 
