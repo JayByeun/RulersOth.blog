@@ -2,476 +2,1037 @@
 
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-
-      <title>RulersOth.github.io</title>
-
+   
+      <title>RulersOth.github.io/RulersOth.blog</title>
+   
    <link>http://localhost:4000</link>
-   <description>A beautiful narrative written with the world's most elegant publishing platform. The story begins here.</description>
+   <description>What would you do,<br>if you have the DMC DeLorean?</description>
    <language>en-uk</language>
    <managingEditor> </managingEditor>
    <atom:link href="rss" rel="self" type="application/rss+xml" />
-
+   
 	<item>
-	  <title>A Full and Comprehensive Style Test</title>
-	  <link>//a-full-and-comprehensive-style-test</link>
+	  <title>Regex 표현 정리</title>
+	  <link>/RulersOth.blog//jayb/Regular-Expression</link>
 	  <author></author>
-	  <pubDate>2014-09-27T12:18:00+02:00</pubDate>
-	  <guid>//a-full-and-comprehensive-style-test</guid>
+	  <pubDate>2021-03-03T00:00:00+01:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/Regular-Expression</guid>
 	  <description><![CDATA[
-	     <p>This is just an <em>ipsis verbis</em> copy of the first example running on the <a href="http://demo.ghost.io">Ghost Demo</a>. This shows how you can use html styling to achieve your hopes.</p>
+	     <p><br /></p>
 
+<p>Regex를 사용할 때, <code class="highlighter-rouge">multiple</code> <code class="highlighter-rouge">global</code> 사용을 유의해야한다.</p>
 
-<p>Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
-
-
-<hr />
-
-<h1 id="heading1">Heading 1</h1>
-
-<h2 id="heading2">Heading 2</h2>
-
-<h3 id="heading3">Heading 3</h3>
-
-<h4 id="heading4">Heading 4</h4>
-
-<h5 id="heading5">Heading 5</h5>
-
-<h6 id="heading6">Heading 6</h6>
-
-<hr />
-
-<p>Lorem ipsum dolor sit amet, <a title="test link" href="#">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized.</em> Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation). <span style="text-decoration:underline;">Underline.</span> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
-
-<p><abbr title="Hyper Text Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.  Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <code>COPY <var>filename</var></code>. <del>Dinner’s at 5:00.</del> <ins>Let’s make that 7.</ins> This <span style="text-decoration:line-through;">text</span> has been struck.</p>
-
-<hr />
-
-<h2 id="media">Media</h2>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-
-<h3 id="bigimage">Big Image</h3>
-
-<p><img src="http://demo.ghost.io/content/images/2014/09/testimg1.jpeg" alt="Test Image" /></p>
-
-<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-
-<h3 id="smallimage">Small Image</h3>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-
-<p><img src="http://demo.ghost.io/content/images/2014/09/testimg2.jpg" alt="Small Test Image" /></p>
-
-<p>Labore et dolore.</p>
-
-<hr />
-
-<h2 id="listtypes">List Types</h2>
-
-<h3 id="definitionlist">Definition List</h3>
-
-<dl>
-<dt>Definition List Title</dt>
-<dd>This is a definition list division.</dd>
-<dt>Definition</dt>
-<dd>An exact statement or description of the nature, scope, or meaning of something: <em>our definition of what constitutes poetry.</em></dd>
-</dl>
-
-<h3 id="orderedlist">Ordered List</h3>
-
-<ol>
-<li>List Item 1  </li>
-<li>List Item 2 <br />
-<ol><li>Nested list item A</li>
-<li>Nested list item B</li></ol></li>
-<li>List Item 3</li>
-</ol>
-
-<h3 id="unorderedlist">Unordered List</h3>
-
-<ul>
-<li>List Item 1</li>
-<li>List Item 2
-<ul><li>Nested list item A</li>
-<li>Nested list item B</li></ul></li>
-<li>List Item 3</li>
-</ul>
-
-<hr />
-
-<h2 id="table">Table</h2>
+<p><br /></p>
+<h2 id="문법-정리">문법 정리</h2>
+<p><br /></p>
+<h3 id="groups-and-ranges">Groups and ranges</h3>
 
 <table>
-<tbody>
-<tr>
-<th>Table Header 1</th>
-<th>Table Header 2</th>
-<th>Table Header 3</th>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr class="even">
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Chracter</th>
+      <th>뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">\|</code></td>
+      <td>또는</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">()</code></td>
+      <td>그룹</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">[]</code></td>
+      <td>문자셋, 괄호안의 어떤 문자든</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">[^]</code></td>
+      <td>부정 문자셋, 괄호안의 어떤 문가 아닐때</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">(?:)</code></td>
+      <td>찾지만 기억하지는 않음</td>
+    </tr>
+  </tbody>
 </table>
 
-<hr />
+<h3 id="quantifiers">Quantifiers</h3>
 
-<h2 id="preformattedtext">Preformatted Text</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Chracter</th>
+      <th>뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">?</code></td>
+      <td>없거나 있거나 (zero or one)</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">*</code></td>
+      <td>없거나 있거나 많거나 (zero or more)</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">+</code></td>
+      <td>하나 또는 많이 (one or more)</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">{n}</code></td>
+      <td>n번 반복</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">{min,}</code></td>
+      <td>최소</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">{min,max}</code></td>
+      <td>최소, 그리고 최대</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Typographically, preformatted text is not the same thing as code. Sometimes, a faithful execution of the text requires preformatted text that may not have anything to do with code. Most browsers use Courier and that’s a good default — with one slight adjustment, Courier 10 Pitch over regular Courier for Linux users.</p>
+<h3 id="boundary-type">Boundary-type</h3>
 
-<h3 id="code">Code</h3>
+<table>
+  <thead>
+    <tr>
+      <th>Chracter</th>
+      <th>뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">\b</code></td>
+      <td>단어 경계</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">\B</code></td>
+      <td>단어 경계가 아님</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">^</code></td>
+      <td>문장의 시작</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">$</code></td>
+      <td>문장의 끝</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Code can be presented inline, like <code>&lt;?php bloginfo('stylesheet_url'); ?&gt;</code>, or within a <code>&lt;pre&gt;</code> block. Because we have more specific typographic needs for code, we’ll specify Consolas and Monaco ahead of the browser-defined monospace font.</p>
+<h3 id="character-classes">Character classes</h3>
 
-<p>Code blocks can also be inserted with the highlight tag as below:</p>
-<pre>
-
-    {% highlight language-x %}
-    # some code
-    {% endhighlight %}
-
-</pre>
-
-<p>More information about code highlighting in jekyll can be found  <a href="https://jekyllrb.com/docs/templates/#code-snippet-highlighting">in Jekyll documentation</a>.</p>
-
-<p>These area a couple of examples showing the resulting highlighted code:</p>
-
-<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="c">/* css code sample */</span>
-<span class="nf">#container</span> <span class="p">{</span>
-    <span class="nl">float</span><span class="p">:</span> <span class="nb">left</span><span class="p">;</span>
-    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
-    <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
-
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// javascript code sample</span>
-<span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-  <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
-  <span class="na">url</span><span class="p">:</span> <span class="s1">'backend.php'</span><span class="p">,</span>
-  <span class="na">data</span><span class="p">:</span> <span class="s2">"q="</span><span class="o">+</span><span class="nx">myform</span><span class="p">.</span><span class="nx">serialize</span><span class="p">(),</span>
-  <span class="na">success</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
-    <span class="c1">// on success use return data here</span>
-  <span class="p">},</span>
-  <span class="na">error</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">xhr</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">exception</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">// if ajax fails display error alert</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s2">"ajax error response type "</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">});</span></code></pre></figure>
-
-<p>Now you can also use <a href="https://highlightjs.org/">highlight.js</a>.
-For more on how to use it and on the available styles check their
-<a href="https://highlightjs.org/static/demo/">demo</a> and
-<a href="http://highlightjs.readthedocs.org/en/latest/">documentation</a> pages.</p>
-
-<div class="system">
-<pre><code class="swift">// Swift code sample
-import Foundation
-
-@objc class Person: Entity {
-  var name: String!
-  var age:  Int!
-
-  init(name: String, age: Int) {
-    /* /* ... */ */
-  }
-
-  // Return a descriptive string for this person
-  func description(offset: Int = 0) -> String {
-    return "\(name) is \(age + offset) years old"
-  }
-}
-</code></pre>
-</div>
-
-
-<hr />
-
-<h2 id="blockquotes">Blockquotes</h2>
-
-<p>Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.</p>
-
-<blockquote>
-  <p>Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. <cite>— <a href="http://en.wikipedia.org/wiki/HAL_9000">HAL 9000</a></cite></p>
-</blockquote>
-
-<p>And here’s a bit of trailing text.</p>
-
-<hr />
-
-<h2 id="textlevelsemantics">Text-level semantics</h2>
-
-<p>The <a href="#">a element</a> example <br />
-The <abbr>abbr element</abbr> and <abbr title="Title text">abbr element with title</abbr> examples <br />
-The <b>b element</b> example <br />
-The <cite>cite element</cite> example <br />
-The <code>code element</code> example <br />
-The <del>del element</del> example <br />
-The <dfn>dfn element</dfn> and <dfn title="Title text">dfn element with title</dfn> examples <br />
-The <em>em element</em> example <br />
-The <i>i element</i> example <br />
-The <ins>ins element</ins> example <br />
-The <kbd>kbd element</kbd> example <br />
-The <mark>mark element</mark> example <br />
-The <q>q element <q>inside</q> a q element</q> example <br />
-The <s>s element</s> example <br />
-The <samp>samp element</samp> example <br />
-The <small>small element</small> example <br />
-The <span>span element</span> example <br />
-The <strong>strong element</strong> example <br />
-The <sub>sub element</sub> example <br />
-The <sup>sup element</sup> example <br />
-The <var>var element</var> example <br />
-The <u>u element</u> example</p>
-
-<hr />
-
-<h2 id="forms">Forms</h2>
-
-<form>
-<fieldset>
-<legend>Inputs as descendents of labels (form legend)</legend>
-<label>
-<b>Text input</b>
-<input type="text" value="default value">
-</label>
-<label>
-<b>Email input</b>
-<input type="email">
-</label>
-<label>
-<b>Search input</b>
-<input type="search">
-</label>
-<label>
-<b>Tel input</b>
-<input type="tel">
-</label>
-<label>
-<b>URL input</b>
-<input type="url" placeholder="http://">
-</label>
-<label>
-<b>Password input</b>
-<input type="password" value="password">
-</label>
-<label>
-<b>File input</b>
-<input type="file">
-</label>
-<label>
-<b>Radio input</b>
-<input type="radio" name="rad">
-</label>
-<label>
-<b>Checkbox input</b>
-<input type="checkbox">
-</label>
-<label>
-<input type="radio" name="rad"> Radio input
-</label>
-<label>
-<input type="checkbox"> Checkbox input
-</label>
-<label>
-<b>Select field</b>
-<select>
-<option>Option 01</option>
-<option>Option 02</option>
-</select>
-</label>
-<label>
-<b>Textarea</b>
-<textarea cols="30" rows="5" >Textarea text</textarea>
-</label>
-</fieldset>
-
-<fieldset>
-<legend>Clickable inputs and buttons</legend>
-<input type="image" src="http://placekitten.com/90/24" alt="Image (input)">
-<input type="reset" value="Reset (input)">
-<input type="button" value="Button (input)">
-<input type="submit" value="Submit (input)">
-<button type="reset">Reset (button)</button>
-<button type="button">Button (button)</button>
-<button type="submit">Submit (button)</button>
-</fieldset>
-
-<fieldset id="boxsize">
-<legend>box-sizing tests</legend>
-<div><input type="text" value="text"></div>
-<div><input type="email" value="email"></div>
-<div><input type="search" value="search"></div>
-<div><input type="url" value="http://example.com"></div>
-<div><input type="password" value="password"></div>
-
-<div><input type="color" value="#000000"></div>
-<div><input type="number" value="5"></div>
-<div><input type="range" value="10"></div>
-<div><input type="date" value="1970-01-01"></div>
-<div><input type="month" value="1970-01"></div>
-<div><input type="week" value="1970-W01"></div>
-<div><input type="time" value="18:23"></div>
-<div><input type="datetime" value="1970-01-01T00:00:00Z"></div>
-<div><input type="datetime-local" value="1970-01-01T00:00"></div>
-
-<div><input type="radio"></div>
-<div><input type="checkbox"></div>
-
-<div><select><option>Option 01</option><option>Option 02</option></select></div>
-<div><textarea cols="30" rows="5" >Textarea text</textarea></div>
-
-<div><input type="image" src="http://placekitten.com/90/24" alt="Image (input)"></div>
-<div><input type="reset" value="Reset (input)"></div>
-<div><input type="button" value="Button (input)"></div>
-<div><input type="submit" value="Submit (input)"></div>
-
-<div><button type="reset">Reset (button)</button></div>
-<div><button type="button">Button (button)</button></div>
-<div><button type="submit">Submit (button)</button></div>
-</fieldset>
-</form>
-
-<hr />
-
-<h2 id="embeds">Embeds</h2>
-
-<p>Sometimes all you want to do is embed a little love from another location and set your post alive.</p>
-
-<h3 id="video">Video</h3>
-
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<iframe src="//player.vimeo.com/video/103224792?title=0&amp;byline=0&amp;portrait=0" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h3 id="slides">Slides</h3>
-
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<script async class="speakerdeck-embed" data-id="34d2856027ce01316b5d621ab8e7d421" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
-
-<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h3 id="audio">Audio</h3>
-
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169381837&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
-
-<p>Culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<h3 id="code">Code</h3>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-
-<p><div data-height="268" data-theme-id="0" data-slug-hash="bcqhe" data-default-tab="js" data-user="rglazebrook" class='codepen'></p>
-
-<pre><code>var c = new Sketch.create({autoclear: false}),
-    bigCircle = 50,
-    littleCircle = 5,
-    // The velocity value determines how much to move the spinner head (in radians).
-    velocity = 0.105,
-    hue = 0,
-    // The alpha value below determines the length of the spinner&#39;s tail.
-    bg = &#39;rgba(40,40,40,.075)&#39;;
-    Spinner = function() {};
-
-Spinner.prototype.setup = function() {
-  this.x = c.width / 2;
-  this.y = c.height / 2 - bigCircle;
-  this.rotation = 0;
-}
-Spinner.prototype.update = function() {
-  this.rotation += velocity;
-  this.rotation = this.rotation % TWO_PI;
-  this.x = c.width /2 + cos(this.rotation) * bigCircle;
-  this.y = c.height / 2 + sin(this.rotation) * bigCircle;
-}
-Spinner.prototype.draw = function() {
-  c.fillStyle = &#39;hsl(&#39;+hue+&#39;,50%,50%)&#39;;
-  c.beginPath();
-  c.arc(this.x, this.y, littleCircle, 0, TWO_PI);
-  c.fill();
-  c.closePath();
-}
-c.setup = function() {
-  spinner = new Spinner();
-  spinner.setup();
-}
-c.update = function() {
-  spinner.update();
-  hue = ++hue % 360;
-}
-c.draw = function() {
-  spinner.draw();
-  c.fillStyle = bg;
-  c.fillRect(0,0,c.width,c.height);
-}
-</code></pre>
-
-<p>See the Pen <a href='http://codepen.io/rglazebrook/pen/bcqhe/'>Simple Rotating Spinner</a> by Rob Glazebrook (<a href='http://codepen.io/rglazebrook'>@rglazebrook</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-
-<p></div><script async src="//codepen.io/assets/embed/ei.js"></script></p>
-
-<p>Isn't it beautiful?</p>
+<table>
+  <thead>
+    <tr>
+      <th>Chracter</th>
+      <th>뜻</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">\</code></td>
+      <td>특수 문자가 아닌 문자</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">.</code></td>
+      <td>어떤 글자 (줄바꿈 문자 제외)</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">\d</code></td>
+      <td>digit 숫자</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">\D</code></td>
+      <td>digit 숫자 아님</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">\w</code></td>
+      <td>word 문자</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">\W</code></td>
+      <td>word 문자 아님</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">\s</code></td>
+      <td>space 공백</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">\S</code></td>
+      <td>space 공백 아님</td>
+    </tr>
+  </tbody>
+</table>
 
 	  ]]></description>
 	</item>
 
 	<item>
-	  <title>The Businessman & the fisherman</title>
-	  <link>//the-businessman-and-fisherman</link>
+	  <title>Eng_Civilising Information - 2) Savagery of Civilisation</title>
+	  <link>/RulersOth.blog//jayb/Savagery-of-Civilisation</link>
 	  <author></author>
-	  <pubDate>2014-08-12T12:18:00+02:00</pubDate>
-	  <guid>//the-businessman-and-fisherman</guid>
+	  <pubDate>2021-02-09T00:00:00+01:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/Savagery-of-Civilisation</guid>
 	  <description><![CDATA[
-	     <p>An American businessman took a vacation to a small coastal Mexican village on doctor’s orders. Unable to sleep after an urgent phone call from the office the first morning, he walked out to the pier to clear his head. A small boat with just one fisherman had docked, and inside the boat were several large yellowfin tuna. The American complimented the Mexican on the quality of his fish.</p>
+	     <p><br /></p>
 
-<p>“How long did it take you to catch them?” the American asked.</p>
+<hr />
 
-<p>“Only a little while,” the Mexican replied in surprisingly good English.</p>
+<blockquote>
+  <p>I Disapprove of what you Say, <br />
+But I Will Defend to the Death Your Right to Say it <br /></p>
 
-<p>“Why don’t you stay out longer and catch more fish?” the American then asked.</p>
+  <p><strong>- Voltaire</strong></p>
+</blockquote>
 
-<p>“I have enough to support my family and give a few to friends,” the Mexican said as he unloaded them into a basket.</p>
+<p>        I asked the questions as below after watching <strong>‘/the Social Dilemma’</strong> and <strong>‘Children Of Men’</strong> at 1).</p>
 
-<p>“But… What do you do with the rest of your time?”</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a) Freedom of access to information should be guaranteed?
 
-<p>The Mexican looked up and smiled. “I sleep late, fish a little, play with my children, take a siesta with my wife, Julia, and stroll into the village each evening, where I sip wine and play guitar with my amigos. I have a full and busy life, señor.”</p>
+b) Everyone has a right to freedom of expression?
+</code></pre></div></div>
 
-<p>The American laughed and stood tall. “Sir, I’m a Harvard M.B.A. and can help you. You should spend more time fishing, and with the proceeds, buy a bigger boat. In no time, you could buy several boats with the increased haul. Eventually, you would have a fleet of fishing boats.”</p>
+<p>The idea of a) is presented at <strong>Civilising Information - 1)</strong>. As I mentioned earlier, the access to information should be free, but the ethical responsibility of company about this freedom is inevitable at the same time. I believe that a proper intervention rather than censorship would be required for each ethical standards of company.</p>
 
-<p>He continued, “Instead of selling your catch to a middleman, you would sell directly to the consumers, eventually opening your own cannery. You would control the product, processing, and distribution. You would need to leave this small coastal fishing village, of course, and move to Mexico City, then to Los Angeles, and eventually to New York City, where you could run your expanded enterprise with proper management.</p>
+<p>The necessity of intervention is specified through puzzling b) out.</p>
 
-<p>The Mexican fisherman asked, “But, señor, how long will all this take?”</p>
+<p><img src="https://user-images.githubusercontent.com/59648602/107339251-c49dbd80-6abc-11eb-8a64-7a0b3f3b1e43.png" alt="quote" width="700px" /></p>
 
-<p>To which the American replied, “15-20 years, 25 tops.”</p>
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div>
+<p><br /></p>
 
-<p>“But what then, señor?”</p>
+<p>        The quote above is cited from the ending scene of <strong>‘/the Social Dilemma’</strong>. This quote presents the society of <strong>‘Children Of Men’</strong> which is losing production capacity of human and the rest are waiting for extinction of human species with devastated hope. I believe that this quote shows if no matter any good will lose their balance, it could not be easily concluded whether it achieves Utopia or drives self-destruction. Even if that will was good intention, we cannot say so sure of the end.
+<br /></p>
 
-<p>The American laughed and said, “That’s the best part. When the time is right, you would announce an IPO and sell your company stock to the public and become very rich. You would make millions.”</p>
+<p>As written at <strong>Civilising Information -1), the freedom of access to information</strong> brought a desire to possess tremendous information and the learned users by this desire produce another information at Social Media such as Facebook and Instagram. This production enriched those platform with full and variety of information.
+<br /></p>
 
-<p>“Millions señor? Then what?”</p>
+<p>The fact that information is getting bigger and bigger brought the increase of users at such platform and the increasing popularity of platform caused the attention of advertisers. It is inevitable at this moment that the company obsesses the users’ Retention and Conversion data for their interests. The Algorithm which is developed for this purpose results in neglecting the production of inflammatory or incendiary contents. In this aspect, the point that we should not ignore is ‘the process of the producing and learning enormous information through the freedom of access to information’.
+<br />
+<br /></p>
 
-<p>“Then you would retire and move to a small coastal fishing village, where you would sleep late, fish a little, play with your kids, take a siesta with your wife, and stroll in to the village in the evenings where you could sip wine and play your guitar with your amigos.”</p>
+<h4 id="the-freedom-of-access-to-information-works-the-freedom-of-speech">The Freedom of Access to Information works the Freedom of Speech</h4>
 
-<p>Adapted from the “Anekdote zur Senkung der Arbeitsmoral” by <strong>Heinrich Böll</strong></p>
+<p><br />
+        The <strong>‘Freedom of Speech’</strong> is one of fundamental rights as important as the freedom of access to information. This fundamental rights are also applied to the Internet. The reason why I started this writing with the quote of Voltaire(actually Voltaire did not say that) stands here.
+<br /></p>
 
-<p>An influential German write and Nobel Prize for Literature in 1972.</p>
+<blockquote>
+  <p>I Disapprove of what you Say, <br />
+But I Will Defend to the Death Your Right to Say it <br /></p>
+
+  <p><strong>- Voltaire</strong></p>
+</blockquote>
+
+<p>Anyone can have the right of the freedom of speech in civilised society. Such right make a country avoid that one particular idea rules all and let them evolve continuously to make better world. The freedom of speech helps for people to understand something different from their idea and give them a balance to deliver their idea safely. However, these are just part of positive function. The huge freedom always comes with blind spot.
+<br /></p>
+
+<p><strong>Politics</strong> are the most famous example that such freedom of speech can be used actively and extremely.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95574997-38a45800-0a2e-11eb-9b8f-ae06e1b40020.png" alt="immigrant" width="800px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div>
+<p><br /></p>
+
+<h5 id="what-if-extreme-contents-are-only-spent-on-social-media">What if extreme contents are only spent on Social Media?</h5>
+
+<p><br />
+        Internet has built a space that people can deliver their political idea freely and anonymously through several process of developing. These days people refuse rather to be anonymous and try to show themselves confidently. Internet which helped to gather people and let them exchange their opinions, facts and important information whenever and wherever they want made people concentrate on what they really should think of. However, in this process, those tremendous information confronts the blind spot at the Social Media such as Facebook, Instagram and Tweeter. The result of this Algorithm is <strong>‘QAnon’</strong> which asserts conspiracy theory in such an extreme way particularly in Internet.
+<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95576106-2a573b80-0a30-11eb-9df4-fc760147e288.png" alt="QAnon" width="500px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:https://www.bbc.com/news/world-us-canada-54443878</span></div>
+<p><br /></p>
+
+<p>        Although Facebook held their ground on their ethical regulation about provocative comment of President Trump, they decided recently to ban all accounts which is connected to <strong>QAnon Conspiracy Theory</strong>. QAnon believes that President Trump can save the world and Trump advocated their freedom of speech. Thus, Trump leaved them to believe that he supports actually those group. QAnon is considered to cross the line because of their provocative information before U.S. Presidential Election.
+<br /></p>
+
+<p>The one of Conspiracy Theory of QAnon was ‘COVID-19 is fake’ and it has spread out all over the world, so even in Europe there were several demonstration related to QAnon. This society is well known as producing conspiracy theory with the right of the Freedom of Speech.
+Eventually, the size of this society has been bigger than usual because of U.S. Presidential Election and Facebook decided as above.</p>
+
+<p><br /></p>
+
+<h4 id="the-go-sign-of-them">The ‘go’ sign of them</h4>
+
+<p><br />
+        The extremists haven’t stopped collective actions and produced a lot of fake news. In Germany, the government started to restrict AfD(Alternative for Deutschland) which make the conflict of race, sex and politics extreme.</p>
+
+<p>No matter which you stands between right and left, the extremist produce very provocative information and continuous expose of this information make people difficult to acknowledge what the fact is. The extreme or intense information let people getting emotional and them participate in easily without rational decision eventually. When people have the desire of participation of that, the movement which is not proved whether it’s fact or not but believes ‘it is right’ has power and became important. This is their justification and <strong>‘go sign’</strong>.</p>
+
+<p>This extreme movement and producing conspiracy is presented well in <strong>‘Children of Men’</strong>.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95579003-1e21ad00-0a35-11eb-86e8-eec62f44d93c.png" alt="extremist" width="800px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div>
+<p><br /></p>
+
+<p>        In the movie, both of glorious idea with lofty purpose and the movement with hatred helped physical war in the middle of trying every possible means for their bigger goal. I believe that any other ideas and thought cannot be before humanity. When some great cause stands before humanity, the human will destroy themselves. <strong>‘Children of Men’</strong> make us imagine the result of that vividly.</p>
+
+<p><br /></p>
+
+<h4 id="the-essence-of-human-being">The essence of human being</h4>
+
+<p><br />
+        <strong>‘Theo’</strong>, the main character of the movie, was a companion of <strong>‘Julien’</strong> whom they participated in an ideological movement with before, but he became thoroughly a pessimist because of the reality that make people lose their kids with their corruption and devastation. <strong>Theo</strong> has no basic goal of life to be alive and less hope than general citizens who live only for survive. ‘Theo’ is accidentally charged with protecting the last hope of human being and the last life. With this mission he is finding his purpose of life again. In the process of the mission he was helped not by people from the government who run and make laws but by <strong>‘Marika’</strong> who is refugee and barely alive. It was very impressive that he could complete the mission in the middle of flying bombs and bullets with <strong>Marika’s</strong> help.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95580930-70180200-0a38-11eb-8054-c8c236d2224a.png" alt="marika1" width="500px" />
+<img src="https://user-images.githubusercontent.com/59648602/95580946-74441f80-0a38-11eb-882a-6a721012917a.png" alt="marika2" width="500px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div>
+<p><br /></p>
+
+<p>        I think that <strong>‘Marika’</strong> and <strong>‘Theo’</strong> show the most important part of human being. They represent the general people who have been at several historical war such as in this movie and in the Korean War and who have thanked the survival of the day before having political ideas and thoughts. When left guns are put on their head and also when right guns are aimed at their head, they could not help putting their hands up and surrender for living and their family. We can see those people from <strong>‘Marika’</strong>.
+<br /></p>
+
+<p><strong>‘Theo’</strong> shows how valuable that we live with a purpose even though we live only one day. Likewise, humanity often roles very important in the movies based on dystopia.</p>
+
+<p><br /></p>
+
+<h5 id="if-so-who-should-take-the-ethical-responsibility">If so, who should take the ethical responsibility?</h5>
+
+<p><br />
+I want to say that it is for both company and individuals.</p>
+
+<p>        Human being is very weak for temptation but human cannot easily discards their Humanity which is very noble and lofty in dark days for lawless as the movie. <strong>Human can make self-purification in the middle of chaos and disorder.</strong> This is why human can have developed the culture over the past era. This is their history and the essence of live.</p>
+
+<p>Like we made our equality through guaranteeing the political right for everyone and like we punish pedophile with strong action and laws, we stand on the aspect which self-purification is required.
+This is not to deprive the rights of free country, but to protect it and to make and maintain the society which everyone can express themselves safely. Thus, this is why we need realignment of internet world.</p>
+
+<p>the End.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Be like Monoid!</title>
+	  <link>/RulersOth.blog//jayb/be-like-Monoid!</link>
+	  <author></author>
+	  <pubDate>2021-01-25T00:00:00+01:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/be-like-Monoid!</guid>
+	  <description><![CDATA[
+	     <p><br /></p>
+
+<h1 id="monoid">Monoid</h1>
+
+<p>추상대수학을 공부하다보면, <strong>모노이드(Monoid)라는</strong> 개념을 만나게 된다.</p>
+
+<p><br />
+모노이드란 아래와 같은 성질을 갖는다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/105717221-26d4bb00-5f20-11eb-99c5-98a4a18a4456.png" alt="Monoid" width="700px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:https://en.wikipedia.org/wiki/Monoid</span></div>
+<p><br /></p>
+
+<p><br /></p>
+
+<h5 id="가깝고도-멀게-느껴지는-이-복잡한-성질-서술">가깝고도 멀게 느껴지는 이 복잡한 성질 서술.</h5>
+
+<p><br />
+어려운 듯 보이는 모노이드는 추상대수학에서 출발했기 때문일까. 내게 이 ‘추상’이라는 말을 더 피부로 와닿게해준 개념이라고 할 수 있다. 모노이드는 수학적인 논리구조와 함께 나에게 깊은 상념을 주었다. 모노이드란 쉽게 말하자면 결합법칙(Associativity)이 성립하고 항등원(identity element or neutral element)이 존재하는 그룹이다. 
+<br />
+<br /></p>
+
+<p>다시말해, 임의의 a, b, c와 결합구조가 성립이 되고, 임의의 수 a에 어떤 수를 연산했을 때 다시 a가 나오게 되는 그룹을 말한다는 것이다.</p>
+
+<h5 id="모노이드를-생각하면-할수록-내-인생의-가치관과-일맥상통한다고-느꼈다">모노이드를 생각하면 할수록, 내 인생의 가치관과 일맥상통한다고 느꼈다.</h5>
+
+<p><br /></p>
+
+<blockquote>
+  <p>어떤 그룹에 있어도 그 그룹안의 사람들과 평등하게 조화되면서도, 어떤 부분에 있어서는 오롯이 나로 남아 있을 수 있는,</p>
+</blockquote>
+
+<blockquote>
+  <p>누구와도 쉽게 결합될 수 있으면서도, 누군가 한사람과 있을때 오직 나 본연의 모습이 되는,</p>
+</blockquote>
+
+<blockquote>
+  <p>나이, 인종, 성별과 상관없이 누구와도 동등하게 어울려질 수 있으면서도, 나를 나로 있는그대로 받아 들여주는 누구가를 반드시 만나게 되는 것.</p>
+</blockquote>
+
+<p><br /></p>
+
+<p>짧은 상념이지만 더 추가될 이 개념을 바라보면서, 인문학을 알고 공대생이 되어 다행이라 생각했다.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Eng_Civilising Information - 1) Actively Passive</title>
+	  <link>/RulersOth.blog//jayb/Civilising-Information-1)-Eng</link>
+	  <author></author>
+	  <pubDate>2020-12-03T00:00:00+01:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/Civilising-Information-1)-Eng</guid>
+	  <description><![CDATA[
+	     <p><br /></p>
+
+<hr />
+
+<h3 id="have-you-ever-thought-about">Have you ever thought about</h3>
+
+<h3 id="that-you-are-being-manipulated-by-something">that you are being manipulated by something?</h3>
+
+<p><br />
+        Have you ever changed your favorite section or interest recently? Have you ever watch something not intendedly? Have you ever chose to focus on latest news actually? or Have you ever give away your extra time to watch something fun accidently?
+<br />
+<br />
+What if you are doing something in the way whatever you choose, but <strong>that someting</strong> is actually exquisitely sorted by someone? What if you are <strong>actively</strong> selecting what to watch but you are <strong>passively</strong> watching something which is the most viewed post or video?
+<br />
+<br /></p>
+
+<blockquote>
+  <p>I watched a movie that has been like a lifelong homework.<br /><br />Every time I renew my to-watch-list, this movie has been never gone away. More of that the movie seems too serious to play than it was very important for me. I don’t know why but I have put this off as long as I can and finally I saw the end.
+<br /></p>
+</blockquote>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95326101-5b096a80-08a2-11eb-8a69-4bb2856448bd.jpg" alt="childrenOfMen" width="700px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:https://en.wikipedia.org/wiki/Children_of_Men</span></div>
+<p><br /></p>
+
+<p>        Is it because I saw this movie right after watching a Documentary named <strong>‘/the Social Dilemma’?</strong> The movie, <strong>‘Children of Men’</strong> was too realistic to me. While I am living the era of COVID-19, each of <strong>‘/the Social Dilemma’</strong> and <strong>‘Children of Men’</strong> has seemed to raise the issues for the foreseeable future and to show the consequences as the issues are actually presented.<br />
+<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95326155-6bb9e080-08a2-11eb-87e1-9ab9f06be90f.png" alt="socialDilemma" width="700px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div>
+<p><br /></p>
+
+<p>The Documentary, <strong>‘/the Social Dilemma’</strong> and the Movie, <strong>‘Children of Men’</strong> give us two ideas as below:<br /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a) Freedom of access to information should be guaranteed?
+b) Everyone has a right to freedom of expression?
+</code></pre></div></div>
+
+<hr />
+
+<h4 id="freedom-of-access-to-information">Freedom of access to information</h4>
+
+<p><br />
+        Freedom of access to information-also known as the reason of existence of public library- is very basic human rights and the opportunity of learning. In the case of corporations which provide Search Engine, they cannot delete and censor any information and search results as they like because of this huge and sensitive reason. This policy is applied to the Search Engine of South Korea as well. To the company which delivers not only source and materials but News and current issues in South Korea such as <strong>Naver</strong> and <strong>Kakao corp</strong>, it has more impact than just policy that we can imagine. Above all, the freedom of access to information would be my first preposition from entire my twenties till now and I guess that is why this question was poped up after watching the film.
+<br /></p>
+
+<p><strong>‘Freedom of Access to Information’</strong><br /></p>
+
+<p>        <strong>‘/the Social Dilemma’</strong> tells us that the ambitious motive which is started revolutionarily to make better place for human let people do how many things without any ethical responsibilities. In this Documentary, the design ethicist, <strong>Tristan Harris</strong> appeals that current Social Media including other services is developing in the least human friendly way.
+<br /></p>
+
+<p>        When UX(User Experience) designers project and update certain services and functions, they consider how this service and function can keep or maintain <strong>‘Retention’</strong>. I personally agree with the idea which <strong>‘well-designed service’</strong> should be based on <strong>‘Retention Data’</strong>, because valuable service means that users don’t leave the platform or play around in the service for certain time. In this criterion, Retention data is meaningful. However, it also cannot be ignored that the Retention time of users in Social Media have very closely to do with profit of corporation.
+<br />
+<br /></p>
+
+<h4 id="data-equals-profit">Data equals Profit</h4>
+
+<p><br />
+        Although some corporations and some people accessed to this data for providing better service, they cannot disregard obsession of <strong>‘Retention and Conversion Data’</strong> to maintain long-lasting business. <strong>Tristan Harris</strong> assert that at this point, human unfriendly UX(User Experience) is designed.
+<br /></p>
+
+<p>In fact, it looks very ideal that the company can make profits in the middle of devising better service. <strong>But how middle is that?</strong></p>
+
+<p><strong>‘Without leaving a certain service, they make people browse and play long or make them back to service in a short time, like right after hand over the mobile.’</strong><br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95331785-c5260d80-08aa-11eb-8354-368f61ba6b83.png" alt="infiniteScrolling" width="800px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright: Jay_B</span></div>
+<p><br /></p>
+
+<p>In this point, the addiction can be started and such strategies can be fatally dangerous to teenagers. The one of the most typical example is infinitive scrolling of Facebook.<br /></p>
+
+<p>        The internet services which let people easily and swiftly access to information made people who have common interest exchange their opinions and information without any barriers and deliver latest news faster than ever. It exposes us to tremendous information at the same time. Furthermore, the knowledge that people can read and learn from books and experts, can be accessed in real time and if you cannot absorb these in time, sooner or later you are gonna be <strong>‘outdated’</strong>. Meanwhile, people have been transferred unconsciously <strong>from the era that they ‘search’</strong> what they want at Search Engines <strong>to the era that they are ‘dived’</strong> to enormous information for themselves. In oder not to be outdated and sometimes just for fun.<br /></p>
+
+<p>        The desire that people want information as much as possible has positive function, of course.
+However, when we make ourselves throw into information, what does the company which runs such service pursue at the same time?
+<br /></p>
+
+<hr />
+
+<h4 id="stimulation-by-psychology-comes-with-addiction">Stimulation by psychology comes with Addiction</h4>
+
+<p><br />
+        Facebook feeds, pages of Chrome, contents of Instagram and etc. let us expose to tremendous information under the name of Algorithms. In the middle of these information, the advertisement exists which is based on that we agreed with collecting our information unconsciously. The value of this advertisement is assigned according to the <strong>‘Retention and Conversion data’</strong>. It is not illegal in current law, because of our unconscious agreement. Corporations make users consume contents which more people clicked and watched in order to expose to advertisement for long, actively and frequently. It is sometimes very useful, but selecting contents according to the Algorithms as the purpose above make users encounter sometimes excessively provocative or fake information regardless of user’s age and state.
+<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95340745-d0cb0180-08b5-11eb-8eda-e3bf34947f7e.png" alt="retention" width="800px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright: Jay_B</span></div>
+<p><br /></p>
+
+<p>        Algorithms cannot be good or bad itself. It operates exactly in accordance with how people design. However, it is also true that operation of mechanical Algorithms bring blind spot as above. Algorithms cannot decide something itself as reflecting ethical standards. This is why intervention of people is required in Social Media.
+<br /></p>
+
+<p>That is, management of corporation pursuing profitability can often drive users to where they have never imagined not intentionally, but eventually.</p>
+
+<h3 id="then-is-this-service-ethically-relevant">then, is this service ethically relevant?</h3>
+
+<p><br />
+        If they did not intend this on purpose, then they don’t have any responsibility for the result that such flow of information has brought? The users have their own responsibility by themselves, because they connected to the service with their own will in terms of Freedom of Access to Information?
+<br /></p>
+
+<p><strong>‘Freedom of Access to Information’</strong> gives users the opportunity of learning and freedom of choice at the same time. That is why users can shut down or delete the service whenever they don’t want to use. Under this freedom of chice, it seems that so many questions are forgiven. However, <strong>learned addiction</strong> by particular functions such as infinitive scroll cloud user’s judgement quite easily.
+<br /></p>
+
+<h5 id="is-it-ever-true-that-people-can-shut-down-the-freedom-of-access-by-themselves-anytime">Is it ever true that people can shut down the Freedom of Access by themselves anytime?</h5>
+
+<p><br />
+        The necessity of intervention in access to information of Internet starts with this as ethical standards and regulations are required to maintain society and to transfer to civilised society.</p>
+
+<h4 id="is-this-censoring-information">‘Is this censoring Information?’</h4>
+
+<p><br />
+        I mean that there is a reason that we should move forward from this question. The reason can be found at the process of <strong>answering b)</strong>.
+<br />
+Before that, I want to note that the right that anyone can speech and express freely can sometimes make these Algorithms more fatal.</p>
+
+<p><br />
+You can say that,
+“Come on, how could it be so bad? How bad things could we take?”</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/101609746-a4437b00-3a07-11eb-8ebd-6721f2bad567.png" alt="civilwar1" width="500px" />
+<img src="https://user-images.githubusercontent.com/59648602/101609795-b32a2d80-3a07-11eb-9643-e90295395bcf.png" alt="civilwar2" width="500px" />
+<img src="https://user-images.githubusercontent.com/59648602/101609823-b7564b00-3a07-11eb-94e7-f9fa6eff5597.png" alt="civilwar3" width="500px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div>
+<p><br /></p>
+
+<p>This theme continues in Civilising Information-2).</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Civilising Information - 2) 문명에서 야만으로</title>
+	  <link>/RulersOth.blog//jayb/Civilising-Information-2)</link>
+	  <author></author>
+	  <pubDate>2020-10-09T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/Civilising-Information-2)</guid>
+	  <description><![CDATA[
+	     <p><br />
+<br /></p>
+
+<blockquote>
+  <p>I Disapprove of What You Say, <br />
+But I Will Defend to the Death Your Right to Say It <br /> -Voltaire</p>
+</blockquote>
+
+<p><strong>/the Social Dilemma</strong>와 <strong>Children Of Men</strong>을 보고 난 후 나는 아래와 같은 질문을 던졌다.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a) 정보에 대한 접근은 자유로워야 하는가?
+b) 누구나 자유롭게 발언할 권리가 있는가?
+</code></pre></div></div>
+
+<p>a)에 대한 생각은 <strong>Civilising Information-1)</strong>에서 정리한 바와 같다. 앞서 말했듯이, 정보에 대한 접근은 자유로워야 하지만 그 접근의 자유에 있어서 각 회사들의 윤리적 책임은 피할 수 없는 부분이며 윤리적인 기준을 위해 검열보다는 중재의 방식으로 다각도로 접근할 필요가 있다고 믿는다.<br /></p>
+
+<p>이와 같은 중재의 필요성은 b)에 대한 답을 찾아가면서 더 확실해진다.</p>
+
+<hr />
+
+<blockquote>
+  <p>“유토피아가 될 지 모든 것이 살아지게 될 지는, 최후의 순간이 오기 직전까지 알 수 없다.<br /> -버크민스터 풀러”</p>
+</blockquote>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95562948-17873b80-0a1d-11eb-8bee-b30d3d822e74.png" alt="quote" width="800px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div>
+<p><br /></p>
+
+<p>위 인용구는 <strong>/the Social Dilemma</strong>의 마지막 장면에 나오는 글이다. 위 문구는 인간의 생산능력이 없어져 인류의 소멸을 기다리며 황폐해져가는 <strong>Children Of Men</strong>의 사회와 일맥상통한다. 나는 위 문구가 ‘선의의 의도로 시작했던 모든 것들도 인간 사회의 유기적인 작동안에서 중재 없이 균형을 잃게 되면 결국 그 시작이 유토피아를 만들지, 자멸을 만들지는 결론이 날 때까지 모른다.’라는 의미를 담고 있다고 생각한다.<br /></p>
+
+<p><strong>Civilising Information-1)</strong>에서 말했듯이, <strong>정보접근의 자유</strong>는 거대한 정보에 대한 소유욕구를 만들었고 그 욕구를 통해 스스로 학습된 유저는 다시 정보의 생산을 낳으면서 페이스북이나 인스타그램 같은 플랫폼을 풍요롭게 만들었다.<br /></p>
+
+<p>정보가 많아진다는 사실은 결국 플랫폼 사용 유저의 증가를 불러왔고 각 플랫폼의 인기가 상승할수록 광고주들의 주목 역시 동시에 증가한다. 사기업은 기업의 이익을 위해 필연적으로 유저들의 <strong>Retention</strong>과 <strong>Conversion</strong>에 집착하게 되고 이 목적을 근거해 개발된 알고리즘은 자극적인 컨텐츠를 방임하는 결과를 낳게 된다. 바로 이 과정에서 우리가 예민하게 살펴보아야 할 부분은 <strong>‘정보 접근의 자유를 통해 방대한 정보를 학습하고 다시 생산하게 되는 과정’</strong>이다.
+<br />
+<br /></p>
+
+<hr />
+
+<h4 id="정보-접근의-자유는-다시-표현의-자유로">정보 접근의 자유는 다시 표현의 자유로</h4>
+
+<p>정보 접근의 자유와 함께, 아니 어쩌면 그 보다 더 우선시 될 수 있는 기본권은 <strong>‘표현의 자유’</strong>다. 이 기본권은 당연히 인터넷 상에서도 동일하게 적용된다.
+이 글의 첫 문장을 볼테르의 명언(실제로는 볼테르가 직접한 말이 아니라 볼테르의 사상을 한마디로 정리한 문구라고 한다.)으로 시작한 이유는 바로 여기에 있다.</p>
+
+<blockquote>
+  <p>내가 비록 당신의 의견에 동의하지 않을 지라도,<br /> 나는 내 목숨을 걸고 당신의 발언할 권리를 옹호하겠다.<br /> - Voltaire</p>
+</blockquote>
+
+<p>문명화 된 사회에서는 누구나 자유롭게 발언할 권리를 갖는다. 이러한 권리는 특정 사상이 한 국가를 지배하는 것을 막아주고 사람들이 보다 나은 세상을 만들수 있도록 끊임없이 진화하게 한다. 표현의 자유는 내 생각과 다른 어떤 것들을 이해하는데 도움을 주고 내가 생각한 것을 안전하게 전달 할 수 있는 균형을 준다. 하지만 이것들은 표현의 자유의 순기능에 불과하다. 거대한 자유는 반드시 블라인드 스팟(사각지대)과 함께 온다.<br /></p>
+
+<p>이러한 표현의 자유가 가장 적극적으로 그리고 가장 극단적으로 사용 되는 곳이 바로 ‘정치’다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95574997-38a45800-0a2e-11eb-9b8f-ae06e1b40020.png" alt="immigrant" width="800px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div>
+<p><br /></p>
+
+<h4 id="극단적인-정보만-수면위로-떠오르게-된다면">극단적인 정보만 수면위로 떠오르게 된다면?</h4>
+
+<p>인터넷은 초창기부터 여러 과정을 거치면서 익명성과 함께 정치적인 견해를 자유롭게 펼칠 수 있는 공간이 되었다. 현재는 익명성을 오히려 거부하거나 당당하게 자신을 표현하는 단계까지 와있다. 이처럼 장소의 구애 없이 언제든지 살롱을 열 수 있는 인터넷은 다양한 의견과 사실, 중요한 정보들과 함께 사람들이 기꺼이 주목해야할 만한 주제에 무게감을 가질 수 있게 도와주었다. 하지만 이 과정에서 전세계 동시다발적으로 쏟아지는 정보들은 페이스북, 인스타그램, 트위터와 같은 각 플랫폼에서 앞서 말한 정보접근의 자유의 사각지대를 만나게 된다. 이 알고리즘의 결정체가 최근 더 극단적으로 움직이고 있는 ‘QAnon’이다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95576106-2a573b80-0a30-11eb-9df4-fc760147e288.png" alt="QAnon" width="500px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:https://www.bbc.com/news/world-us-canada-54443878</span></div>
+<p><br /></p>
+
+<p>트럼프 대통령의 자극적인 포스팅에도 회사의 윤리적 방침을 고수했던 페이스북에서 최근 <strong>QAnon Conspiracy Theory</strong> 그룹들과 계정들을 삭제하겠다고 발표했다. 각종 음모론의 끝판왕이라고 할 수 있는 QAnon 단체들은 트럼프가 세상을 구한다고 믿고 있고 트럼프 대통령은 QAnon에 대해 어느정도 옹호하는 발언을 하면서 이 단체를 사실상 지지하는 형식으로 흘러가게 되었다. 미국 대선을 앞두고 자극적인 정보들이 넘쳐나면서 이 단체는 선을 넘었다는 평가를 받고 있다.<br /></p>
+
+<p><strong>‘COVID19는 거짓이다’</strong>라는 음모론은 전세계에 퍼져나갔고 최근 베를린에서도 QAnon을 선봉으로한 시위가 열려 이슈가 되었다. 이 단체는 <strong>표현의 자유</strong>라는 기본권을 바탕으로 사실 확인이 되지 않은 정보를 양산하고 있다. 결국 대선을 앞두고 그 덩치는 겉잡을 수 없이 커졌고 페이스북은 위와같은 결정을 내렸다.
+<br />
+<br /></p>
+
+<h4 id="극단주의자들의-go-사인">극단주의자들의 ‘go’ 사인</h4>
+
+<p>극단주의자들은 단체행동을 서슴치 않았고 그 단체 행동은 거대한 가짜뉴스를 생산했다. 독일에서도 이 현상을 극단화 시키는 AfD(독일을 위한 대안당) 규제를 시작하고 있다.<br /></p>
+
+<p>좌가 되었던, 우가 되었던 극단주의자들이 생산하는 정보는 상당히 자극적이고 그런 정보에 지속적으로 노출되다보면 사람들은 무엇이 사실인지를 인지하는데 어려움이 생긴다. 극단적인 내용은 감정의 동요를 불러 일으키고 결국 이성적인 판단 없이 아주 쉽게 참여하게 만든다. 그렇게 참여하고자 하는 욕구가 생길 때, ‘사실인지 확인하진 않았지만 옳다고 믿는 일’에 힘이 실린다. 이게 그들의 정당화이자 ‘go(행동해도 좋다)’ 사인이다.<br /></p>
+
+<p>이 극단적인 운동과 음모론 생산의 결과는 <strong>‘Children of Men’</strong>에서 확인할 수 있다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95579003-1e21ad00-0a35-11eb-86e8-eec62f44d93c.png" alt="extremist" width="800px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div>
+<p><br /></p>
+
+<p>영화에서는 숭고한 목적으로 시작했던 사상도, 증오로 시작했던 운동도 모두다 대의를 위해 수단과 방법은 무시하면서 정치적 전쟁을, 물리적 전쟁을 일으키는데 일조한다. 나는 휴머니즘 보다 그 어떤 사상과 아이디어도 앞설 수 없다고 믿는다. 인간애보다 그 어떤 대의가 앞서는 순간, 인류는 자멸할 것이다. 그 결과를 처참하게 보여주고 있는 것이 이 영화, <strong>‘Children of Men’</strong>이다.
+<br />
+<br /></p>
+
+<hr />
+
+<h4 id="가장-근본적인-인간의-모습">가장 근본적인 인간의 모습</h4>
+
+<p>극 중 남자주인공 <strong>‘테오’</strong>는 처음에 줄리앤과 함께 사상운동을 했던 동지였으나, 아이를 잃게 할 만큼 점점 변질되고 황폐화 되는 사회 앞에 철저한 염세주의자가 된 인물이다. 하루하루의 생존을 위해 사는 일반적인 시민들만도 못한, 희망도 가장 기초적인 살겠다는 목적도 없는 <strong>‘테오’</strong>는 의도치 않게 인류의 마지막 희망이자 생명을 보호하는 임무를 받게 되고 다시 삶의 목적을 찾아간다. 그 과정에서 규범을 정하고 법을 집행하는 정부의 사람이 아닌, 하루를 연명하듯이 살아 내던 추방 당한 난민, <strong>‘마리카’</strong>의 도움으로 양 진영의 총과 폭탄을 피해 임무를 완수 할 수 있었던 것은 정말 인상적이었다.<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95580930-70180200-0a38-11eb-8054-c8c236d2224a.png" alt="marika1" width="500px" />
+<img src="https://user-images.githubusercontent.com/59648602/95580946-74441f80-0a38-11eb-882a-6a721012917a.png" alt="marika2" width="500px" /></p>
+
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_ChildrenOfMen</span></div>
+<p><br /></p>
+
+<p>나는 <strong>‘마리카’</strong>와 <strong>‘테오’</strong>, 이 두사람이 인간의 가장 중요한 면을 나타내고 있다고 생각한다. 역사속의 수많은 전쟁에서도 있어왔고, 이 영화에서도, 그리고 한국전쟁에서도 있어왔던 사상이라는건 가져보기도 전에 하루의 생존을 감사하게 여기며 살았던 일반적인 시민들. 왼쪽의 총이 자신의 머리를 향할 때 두손을 들어야만 했고 오른쪽의 총이 자신의 머리를 향할 때에도 살기위해 두 손을 높이 들고 항복했던 그 시민들은 <strong>‘마리카’</strong>에게서 확인할 수 있다.<br /></p>
+
+<p><strong>‘테오’</strong>는 단 하루를 살더라도 삶의 목적과 함께 살아내는 것. 그것이 인간에게 얼마나 중요한가를 보여준다. 디스토피아를 배경으로 하는 영화들에서 인간애는 종종 중요한 역할을 한다.</p>
+
+<hr />
+
+<h4 id="그렇다면-앞서말했던-이-윤리적-책임은-누구에게-있을까">그렇다면, 앞서말했던 이 윤리적 책임은 누구에게 있을까?</h4>
+
+<p><br />
+기업과 개인, 단체와 국가 모두에게 있다.</p>
+
+<p>사람이란 동물은 유혹에 아주 나약하지만 무법이 기본인 시대 속에서도 영화에서처럼 그들의 가장 고귀한 특성인 인간애, Humanity를 찾을 수 있다. 혼돈과 무질서 속에서도 인간은 자정작용을 할 수 있다. 그것이 바로 수많은 시대를 거쳐오면서 발전해온 인간의 역사이자 발전의 근간이다.</p>
+
+<p>참정권 앞에서 평등해졌듯이, 소아 성애자들을 엄벌로 다스리듯이 우리 사회는 다시 한 번 스스로의 자정작용이 필요한 한 국면에 와있다. 자유국가의 권리를 빼앗는 것이 아니라, 자유 국가를 지키고 누구나 안전하게 자신을 표현할 수 있는 사회를 만들고 유지하기 위해 인터넷 안의 재정비가 필요한 것이다.</p>
+
+<p>the End .</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Civilising Information - 1) 능동적이게 수동적으로</title>
+	  <link>/RulersOth.blog//jayb/Civilsing-Information-1)</link>
+	  <author></author>
+	  <pubDate>2020-10-07T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/Civilsing-Information-1)</guid>
+	  <description><![CDATA[
+	     <p><br /></p>
+
+<hr />
+
+<blockquote>
+  <p>20대 중반부터 숙제처럼 따라다니던 영화를 최근에서야 보게되었다.<br /><br />이 영화는 매번 리스트를 갈아 엎을때마다 사라지지 않고 내 영화 위시리스트의 자리를 지켰다. 무척 중요했다기 보다 영화 제목이 주는 무게감에 쉽사리 손이가지 않았던지, 이십대 중반에 적어놓았던 메모를 이제야 해결했다.<br /><br />사실 지금에서야 보게 된 것이 다행이라고도 생각한다. 그동안 나에게 많은 일이 있었으니.<br /></p>
+</blockquote>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95326101-5b096a80-08a2-11eb-8a69-4bb2856448bd.jpg" alt="childrenOfMen" width="700px" /></p>
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:https://en.wikipedia.org/wiki/Children_of_Men</span></div>
+<p><br /></p>
+
+<p><strong>‘/the Social Dilemma’</strong>를 보고 난 직후에 이 영화를 봤기 때문일까. <strong>‘Childeren of Men’</strong>은 훨씬 더 현실감있게 다가왔다. COVID-19시대를 살아가면서 <strong>‘/the Social Dilemma’</strong>라는 다큐는 가까운 미래에 대한 문제제기로, <strong>‘Childeren of Men’</strong>은 그 제기되었던 문제가 맞아떨어져 불러오게 될 결과를 그린것처럼 보였다.<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95326155-6bb9e080-08a2-11eb-87e1-9ab9f06be90f.png" alt="socialDilemma" width="700px" /></p>
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div>
+<p><br /></p>
+
+<p><strong>소셜 딜레마</strong>라는 다큐와 <strong>칠드런 오브 맨</strong> 이라는 영화는 아래 2가지 질문에 대한 아이디어를 준다.<br /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a) 정보에 대한 접근은 자유로워야 하는가?
+b) 누구나 자유롭게 발언할 권리가 있는가?
+</code></pre></div></div>
+<hr />
+
+<h4 id="정보-접근의-자유">정보 접근의 자유</h4>
+<p>공공도서관의 설립 이유이기도 한 정보 접근의 자유는 아주 기본적인 권리이자 학습의 기회다. 대형 포털 사이트의 경우에도 이 거대한 이유 때문에 쉽게 검색어를 지우거나 검열할 수 없다. 검색쪽에서 일할 당시에도 이 부분 때문에 항상 주제가 민감해지곤 했던 기억이 난다. 20대 초반부터 후반까지 이 중요한 권리는 어떤 주제를 대하던 나에겐 가장 먼저 떠오르는 전제가 되었고, 이번에도 역시 그러했다.<br /></p>
+
+<p><strong>소셜딜레마</strong>에서는 인간에게 이롭고 혁명적이게 시작했던 이 ‘정보접근의 자유’라는 거대한 모토가, 인터넷 세상에서 인간에게 얼마나 많은 것들을 아무런 윤리적 책임감 없이 가능하게 했는지 설명한다. 다큐에서 디자인 윤리학자 <strong>Tristan Harris</strong>는 현재 소셜 미디어를 포함한 여러 서비스들이 얼마나 인간 친화적이지 않게 개발되고 있는지 강하게 호소하고 있다.<br /></p>
+
+<p>보통의 UX(User Experience) 디자이너들을 비롯한 기획자들은 어떤 서비스를 기획하거나 추가할 때, 해당 기능 또는 서비스가 <strong>‘Retention’</strong>을 얼마나 유지하거나 지속시킬 수 있을지 고민한다. 개인적으로 이 데이터는 ‘잘 만든 서비스’라고 한다면 유저들이 일정 시간 이상을 보내면서 서비스를 떠나지 않고 사용할 것이므로, 그 척도로서 사용하기 위해 주목하기 시작한 것이라 믿는다. 하지만 유저들이 서비스에 머무르는 시간이 곧 이익 창출과 연결된다는 사실은 사기업에게 절대 무시할 수 없는 부분이다.<br />
+<br /></p>
+
+<h4 id="데이터는-곧-수익">데이터는 곧 수익</h4>
+<p>기업마다 개인마다 동기는 다르겠지만 데이터 수집과 서비스의 애정을 위해 이 데이터에 접근했다 하더라도, 유지되는 사업을 지속하기 위해서는 Retention과 Conversion 데이터에 대한 집착은 피할 수 없는 부분인 것이다. <strong>Tristan Harris</strong>는 바로 이부분에서 인간 친화적이지 못한 UX가 발생한다고 말한다. <strong>해당 서비스를 떠나지 않고 오래동안 머무르면서 브라우징하도록 하거나, 핸드폰을 손에서 내려놓고 있다가도 짧은 시간 안에 다시 서비스로 돌아오고 싶게 만드는 것.</strong> <br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95331785-c5260d80-08aa-11eb-8354-368f61ba6b83.png" alt="infiniteScrolling" width="800px" /></p>
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright: Jay_B</span></div>
+<p><br /></p>
+
+<p>여기서 중독이 시작될 수 있으며, 이러한 전략은 청소년들에게는 치명적으로 작용할 수 있다. 그 대표적인 예가 위와 같은 페이스북의 무한 스크롤이다.<br /></p>
+
+<p>누구나 쉽고 빠르게 정보접근을 가능하게 하는 서비스들은 비슷한 관심을 가진 사람들이 장소의 구애 없이 서로의 정보와 의견을 교환하고 뉴스와 신문보다 빠르게 최신 정보를 전달할 수 있게 해주었지만, 동시에 엄청나게 방대한 정보들에 우리를 노출시켰다. 책에서 볼 수 있었고 전문가에게서 들을 수 있었던 지식들은 실시간으로 접근할 수 있게 되었고 제때에 그 정보들을 소화하지 못하는 날에는 며칠 차이로 그 정보는 이미 outdated 되기도 한다. 그러면서 사람들은 자기들도 모르는 사이에 검색창에서 원하는 정보를 ‘찾아보던 시대’에서 바다위에 던져지듯이 가능한한 많은 정보에 ‘스스로를 노출 시키는 시대’로 밀어넣고 있다. 때로는 뒤쳐지지 않기 위해서, 혹은 재미로.<br /></p>
+
+<p>가능한 한 많은 정보를 갖고 싶어하는 욕구에는 순기능도 존재한다. 하지만 우리가 스스로를 정보에 던져 넣을 때 해당 서비스는, 다시말해 서비스를 운영하는 회사는 어떤 것을 추구하고 있을까?<br /></p>
+
+<hr />
+
+<h4 id="심리를-이용한-자극은-중독으로">심리를 이용한 자극은 중독으로</h4>
+<p>페이스북의 피드나 크롬 페이지, 인스타그램 컨텐츠에는 알고리즘이라는 명목하에 우리가 선택하지 않은 수많은 정보들이 노출된다. 그 안에는 내가 인지하지 못하던 중에 동의했던 정보를 수집해 노출시키는 광고가 있다. 그 광고들은 이 <strong>‘Retention과 Conversion’</strong>데이터를 통해 값이 정해진다. 오래, 적극적으로 그리고 자주 광고에 노출 시키기 위해 회사는 더 많은 사람들이 보고 더 많은 사람들이 클릭한 컨텐츠를 소비시키면서 광고를 끼워넣는다. 이런 목적에 기반해 설계된 알고리즘을 통한 컨텐츠 선별은 때때로 유저의 나이와 상태와는 상관없이 지나치게 자극적이거나 사실이 아닌 배경을 바탕으로 한 정보들도 노출 시키게 되는 것이다.<br /></p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95340745-d0cb0180-08b5-11eb-8eda-e3bf34947f7e.png" alt="retention" width="800px" /></p>
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright: Jay_B</span></div>
+<p><br /></p>
+
+<p>알고리즘 자체는 선하거나 악할 수 없다. 사람이 설계한 대로 작동되기 때문이다. 하지만 기계적인 알고리즘의 작동이 위와같은 사각지대를 낳는 다는 것 역시 피할 수 없는 사실이다. 알고리즘은 스스로 윤리적인 기준을 반영하여 결정하기 어렵다. 이 부분이 바로 사람의 중재가 필요한 이유다.<br /></p>
+
+<p>결국 적극적으로 의도하지 않았지만, 회사의 이익 창출을 위해 추구하는 운영 방식이 유저들을 예상치 못한 곳으로 데려다 놓기도 한다는 것이다.</p>
+
+<h3 id="그렇다면-이-서비스는-윤리적으로-적절한가">그렇다면 이 서비스는 윤리적으로 적절한가?</h3>
+<p><br />
+의도가 순수하거나 그러한 결과를 의도하지 않았다면, 회사는 그러한 정보의 흐름이 낳은 결과에 책임이 없을까?
+정보 접근의 자유를 통해 스스로 들어온 유저들이 개인의 의지로 선택한 것이므로, 여기서 파생되는 문제나 결과는 모두 유저의 책임이 되는 것일까?<br /></p>
+
+<p><strong>‘정보 접근의 자유’</strong>는 유저에게 학습의 기회를 줌과 동시에 선택의 자유를 준다. 때문에 원하지 않을때 유저는 언제든 종료하거나 해당 서비스를 삭제할 수 있다. 바로 이 선택의 자유 아래 수많은 질문이 용서되는것 처럼 보이기도 한다. 하지만 <strong>학습된 중독</strong>은 사람들의 판단을 아주 손쉽게 흐린다.<br /></p>
+
+<h5 id="사람은-과연-언제든-스스로-접근의-자유를-종료할-수-있을까">사람은 과연 언제든 스스로 접근의 자유를 종료할 수 있을까?</h5>
+<p><br />
+사회가 유지되고 문명화된 사회로 가기 위해 적절한 규범과 규제가 필요했듯이, 정보 접근의 자유라는 이름 아래 당연하게 용인 되었던 ‘인터넷상의 정보 접근 중재의 필요성’은 여기서 출발한다.</p>
+
+<h4 id="이거-정보-검열-아냐">‘이거 정보 검열 아냐?’</h4>
+
+<p>라고 말하던 단계에서 이제 한발자국 더 나아가야만 하는 이유가 있다는 것이다. 그 이유는 앞서 말했던 b)에서 또 다시 찾을 수 있다. 누구나 자유롭게 발언할 수 있는 권리, 표현의 자유에 의해서 나타나는 일들은 이 알고리즘을 더 치명적이게 만든다.</p>
+
+<p><img src="https://user-images.githubusercontent.com/59648602/95343798-3967ad80-08b9-11eb-9a41-b1ce276d72a9.png" alt="civilwar1" width="500px" />
+<img src="https://user-images.githubusercontent.com/59648602/95343811-3cfb3480-08b9-11eb-85f8-903ae9b63595.png" alt="civilwar2" width="500px" /></p>
+<div style="text-align: center"><span style="font-size:.8em;">Image Copyright:Netflix_/theSocialDilemma</span></div>
+<p><br /></p>
+
+<p>Civilising Information -2) 에서 계속 됩니다.</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>마크업 언어(html) 태그 정리</title>
+	  <link>/RulersOth.blog//jayb/html-tags</link>
+	  <author></author>
+	  <pubDate>2020-09-14T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/html-tags</guid>
+	  <description><![CDATA[
+	     <blockquote>
+  <p>마크업 언어 중 하나인 html의 태그 및 속성을 정리 해본다. html은 웹페이지의 뼈대를 만드는 언어라고 할 수 있다. 프로그래밍 언어라고 분류하기에는 조금 가벼운 감이 있지만 프론트 엔드를 구성함에 있어 아주 중요한 언어이다. 웹페이지는 대부분 html, CSS, Javascript를 사용해 구성되고 있으며 여기서 html과 CSS는 움직임이 없는 화면을 만드는 데 쓰인다.</p>
+</blockquote>
+
+<hr />
+
+<h4 id="1-기본-구성-tags">1. 기본 구성 tags</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">" "</span> <span class="na">dir=</span><span class="s">"ltr"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>!DOCTYPE html</strong> : html 문서 유형 (html 5 이후로 거의 현상태로 통일되었다.)</li>
+  <li><strong>html</strong> : 웹 페이지 시작과 끝</li>
+  <li><strong>body</strong> : head를 제외한 화면에 표현되는 부분</li>
+  <li><strong>head</strong> : 상단 영역 혹은 제목 영역으로 화면에 표현되는 부분</li>
+  <li><strong>title</strong> : 웹페이지 제목 표시줄에 표현되는 부분</li>
+</ul>
+
+<hr />
+
+<h4 id="2-분류-tags">2. 분류 tags</h4>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+
+<span class="nt">&lt;span&gt;</span>
+<span class="nt">&lt;/span&gt;</span>
+
+<span class="nt">&lt;pre&gt;</span>
+<span class="nt">&lt;/pre&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>div</strong> : 블록 형식으로 분할 (해당 블록 전체에 동일한 스타일 적용/ 자바 스크립트 블록적용)</li>
+  <li><strong>span</strong> : 인라인 형식으로 분할 (텍스트 일부에 스타일 적용/ 자바 스크립트 일부 텍스트 적용)</li>
+  <li><strong>pre</strong> : 그대로 출력</li>
+</ul>
+
+<hr />
+
+<h4 id="3-서식-tags">3. 서식 tags</h4>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;h1&gt;</span>html을 배워보자<span class="nt">&lt;/h1&gt;</span>
+I disapprove of what you say, but I will <span class="nt">&lt;strong&gt;</span>defend to the death<span class="nt">&lt;/strong&gt;</span> your right to say it.
+(<span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com/url?sa=i&amp;url=https%3A%2F%2Fethw.org%2FDonald_E._Knuth&amp;psig=AOvVaw24RzNXarq08C7HvAA_HoVw&amp;ust=1599739462075000&amp;source=images&amp;cd=vfe&amp;ved=0CAIQjRxqFwoTCIiv6ISE3OsCFQAAAAAdAAAAABAD"</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">title=</span><span class="s">"철학자, 작가"</span><span class="nt">&gt;</span>François-Marie Arouet (Voltaire)<span class="nt">&lt;/a&gt;</span>)
+
+<span class="nt">&lt;ul&gt;</span> unodered list
+속성의 순서는 상관 없음
+마우스오버 = 타이틀<span class="nt">&lt;br&gt;</span>
+anchor에서 온 a<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+
+<span class="nt">&lt;ul&gt;</span> ul=list
+<span class="nt">&lt;li&gt;</span>문법1<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법2<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법3<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;li&gt;</span>문법4<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+
+<span class="nt">&lt;ol&gt;</span> odered list
+	<span class="nt">&lt;li&gt;</span>hello<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>hallo<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>hi<span class="nt">&lt;/li&gt;</span>
+
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+<ul>
+  <li><strong>h1~h6</strong> : 제목 크기별</li>
+  <li><strong>ul</strong> : unodered list</li>
+  <li><strong>ol</strong> : ordered list</li>
+  <li><strong>li</strong> : list</li>
+  <li><strong>br</strong> : 줄바꿈</li>
+  <li><strong>hr</strong> : 수평줄</li>
+  <li><strong>strong , em</strong> : 강조</li>
+  <li><strong>b</strong> : 진하게</li>
+  <li><strong>small</strong> : 한 단계 작게</li>
+  <li><strong>del</strong> : 취소선</li>
+  <li><strong>ins</strong> : 밑줄</li>
+  <li><strong>sup</strong> : 제곱근 등 표시</li>
+  <li><strong>sub</strong> : 밑 등 표시</li>
+  <li><strong>mark</strong> : 마크(하이라이트)</li>
+  <li><strong>a</strong> : 링크 삽입</li>
+</ul>
+
+<hr />
+
+<h4 id="4-meta-tags">4. meta tags</h4>
+<ul>
+  <li><strong>meta</strong> : 문자인코딩 방식 등</li>
+  <li><strong>base</strong> : URL/웹 페이지 출력될 윈도우 설정</li>
+  <li><strong>style</strong> : CSS 스타일 시트</li>
+  <li><strong>script</strong> : 자바스크립트 코드</li>
+  <li><strong>link</strong> : CSS 파일 불러오기 (head에서만 사용)</li>
+</ul>
+
+<hr />
+
+<h4 id="5-이미지-삽입-tags">5. 이미지 삽입 tags</h4>
+<ul>
+  <li><strong>img</strong> : 이미지</li>
+  <li><strong>src</strong> : URL</li>
+  <li><strong>alt</strong> : 불러올 이미지가 없을 경우 출력될 문자열</li>
+</ul>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Writing with markdown</title>
+	  <link>/RulersOth.blog//jayb/writing-with-markdown</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/writing-with-markdown</guid>
+	  <description><![CDATA[
+	     <blockquote>
+  <p>마크다운은 <strong>html보다</strong> 쉬운 온라인 문서 작성방법이다. 마크다운으로 작성된 문서는 html로 변환이 쉬워 블로그나 간편한 웹 문서를 만들기에 적합하다. 하지만 마크다운 문서는 작성이 쉬운 반면, 웹 상에서 올바른 형식으로 인식하지 못하는 경우가 많기 때문에 자동으로 html 문서 형식으로 변환해 주는 과정이 필요하다. 이 대표적인 툴이 깃헙 블로그를 만들때 쓰이는 <strong>jekyll 이다.</strong><br /> - 내가 공부한 건 그렇다.</p>
+</blockquote>
+
+<hr />
+<h4 id="1-heading-편집">1. Heading 편집</h4>
+<p>소제목과 같이 하이라이트가 필요한 경우 ‘#, -, =’ 사용할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> # heading
+ ## heading
+ heading
+ --
+ heading
+ ==
+ ...
+</code></pre></div></div>
+<h1 id="heading">Heading</h1>
+<h2 id="heading-1">Heading</h2>
+<h3 id="heading-2">Heading</h3>
+<h4 id="heading-3">Heading</h4>
+<h5 id="heading-4">Heading</h5>
+<h6 id="heading-5">Heading</h6>
+
+<h2 id="heading-6">heading</h2>
+<p>heading
+=====</p>
+
+<h5 id="11-강조">1.1 강조</h5>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>강조효과는 *asterisks* or _underscores_ 사용한다.
+강한 강조 효과는 두개씩 양쪽에 사용 **asterisks** or __underscores__.
+취소선은 ~~Scratch this.~~
+
+</code></pre></div></div>
+<p>강조효과는 <em>asterisks</em> or <em>underscores</em> 사용한다. <br />
+강한 강조 효과는 두개씩 양쪽에 사용 <strong>asterisks</strong> or <strong>underscores</strong>. <br />
+취소선은 <del>Scratch this.</del> <br /></p>
+
+<hr />
+<h4 id="2-줄바꿈">2. 줄바꿈</h4>
+<p>줄바꿈 서식은 <br />을 사용해서 적용할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>언젠가 나도 이 페이지를 안보고 바로 마크다운 문서를&lt;br&gt;
+작성할 수 있을까요?
+</code></pre></div></div>
+<p>언젠가 나도 이 페이지를 안보고 바로 마크다운 문서를<br />
+작성할 수 있을까요?</p>
+
+<h4 id="3-인용문구-묶기">3. 인용문구 묶기</h4>
+<p>인용 문구는 ‘&gt;’를 이용해서 묶어서 표현할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; I Disapprove of What You Say, &lt;br&gt;
+But I Will Defend to the Death Your Right to Say It &lt;br&gt; -Voltaire
+</code></pre></div></div>
+<blockquote>
+  <p>I Disapprove of What You Say, <br />
+But I Will Defend to the Death Your Right to Say It <br /> -Voltaire</p>
+</blockquote>
+
+<h4 id="4-실선-넣기">4. 실선 넣기</h4>
+<p>실선은 ‘*, -, _‘를 사용해서 표현할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>기호들을 3개 이상씩 써주면 된다.
+***
+---
+___
+</code></pre></div></div>
+<hr />
+<hr />
+<hr />
+
+<h4 id="5-코드-블럭-넣기">5. 코드 블럭 넣기</h4>
+<p>코드 블럭 효과는 ‘`‘를 사용해서 표현할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>계속 쓰고 있었는데 이렇게 ```를 세개씩 사용하면 전체 문단을 블럭할 수 있다.
+`세개 뒤에 프로그래밍 언어를 쓰면, 아래와 같이 코드를 블럭해서 표현할 수 있다.
+</code></pre></div></div>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nd">@Override</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">execute</span><span class="o">()</span> <span class="o">{</span>
+        <span class="k">try</span> <span class="o">{</span>
+            <span class="n">game</span><span class="o">.</span><span class="na">place</span><span class="o">(</span><span class="n">from</span><span class="o">,</span> <span class="n">to</span><span class="o">);</span>
+            <span class="n">ReadWrite</span><span class="o">.</span><span class="na">writeLine</span><span class="o">(</span><span class="n">InOutputStrings</span><span class="o">.</span><span class="na">POSITIVE</span><span class="o">);</span>
+        <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">GameLogicException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">ReadWrite</span><span class="o">.</span><span class="na">writeError</span><span class="o">(</span><span class="n">e</span><span class="o">.</span><span class="na">getMessage</span><span class="o">());</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+</code></pre></div></div>
+<p><code class="highlighter-rouge">한 문장만 블럭하기</code></p>
+
+<hr />
+
+<h4 id="6-링크-넣기">6. 링크 넣기</h4>
+<p>링크는 세가지 종류가 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1) 인라인 링크
+[RulersOth](http://RulersOth.github.io)
+2) url 삽입
+&lt;http://RulersOth.github.io&gt;
+3) reference 삽입
+Some links need references.
+[Some links]:(http://RulersOth.github.io)
+</code></pre></div></div>
+<p>● 인라인 링크<br />
+<a href="http://RulersOth.github.io">RulersOth</a><br />
+● url 삽입<br />
+<a href="http://RulersOth.github.io">http://RulersOth.github.io</a><br />
+● reference 삽입<br />
+[Some links need references.][1] <br />
+[1]:(http://RulersOth.github.io/) <br /></p>
+
+<hr />
+
+<h4 id="7-표-만들기">7. 표 만들기</h4>
+<p>표는  콜론(:)과 dash(-)를 이용해 구성한다. 콜론은 칼럼을 연결하고 dash는 헤드 셀을 구분한다.
+Pipes(|)는 칼럼을 구분한다.  마지막 파이프는 생략 가능하다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Number | *name* | status |
+------:|-----:|-------:|
+1 | mark | down |
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Number</th>
+      <th style="text-align: right"><em>name</em></th>
+      <th style="text-align: right">status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">mark</td>
+      <td style="text-align: right">down</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h4 id="8-글자-색상-변경">8. 글자 색상 변경</h4>
+<p>글자 색상은 html을 작성해서 변경 할 수 있다.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;span style="color:blue"&gt;the color is blue&lt;/span&gt;
+&lt;span style="color:#D07111"&gt;#D07111&lt;/span&gt;
+&lt;span style="color:rgb(123, 200, 5)"&gt;different setting of rgb&lt;/span&gt;
+</code></pre></div></div>
+<p><span style="color:blue">the color is blue</span> <br />
+<span style="color:#D07111">#D07111</span> <br />
+<span style="color:rgb(123, 200, 5)">different setting of rgb</span> <br /></p>
+
+<hr />
+
+<h5 id="︎-reference">◼︎ Reference</h5>
+<p><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Github Markdown Cheatsheet</a></p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>related Tech</title>
+	  <link>/RulersOth.blog//jayb/tech-blog</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/tech-blog</guid>
+	  <description><![CDATA[
+	     <p>This is my tech posting page</p>
+
+	  ]]></description>
+	</item>
+
+	<item>
+	  <title>Personal Log</title>
+	  <link>/RulersOth.blog//jayb/personal-log</link>
+	  <author></author>
+	  <pubDate>2020-09-04T00:00:00+02:00</pubDate>
+	  <guid>/RulersOth.blog//jayb/personal-log</guid>
+	  <description><![CDATA[
+	     <p>The things that I should finish until the end of this year.</p>
+
+<hr />
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />revision of GBI</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />studying Java</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />studying html and CSS</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />revision of Hm and La</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />installing memorial bench at Konstanz</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />developing App for Spazieren</li>
+</ul>
 
 	  ]]></description>
 	</item>
